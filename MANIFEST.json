@@ -1,0 +1,937 @@
+{
+  "scope": "Source and required inputs; generated results excluded.",
+  "files": {
+    ".gitattributes": {
+      "bytes": 66,
+      "sha256": "d231c2ea8d5b4a2e9b9850f9c535e423ffa074627f600e7e8504970c2cd09ad2"
+    },
+    ".gitignore": {
+      "bytes": 252,
+      "sha256": "0c3d7103d4353c8868eb4ab06b5f28735b655013ea84a98f11dd9748be8a1a00"
+    },
+    "A/README.md": {
+      "bytes": 2569,
+      "sha256": "88f5337c24a1e71f4a3ce9cd2a2cdc354ac4bb22266142b5ac6a13f5563ee88a"
+    },
+    "A/baseline/code/cases.json": {
+      "bytes": 5471,
+      "sha256": "a4be0e525f098206cc6da46a202635db148765aa4b3f112379ef0a51136e12cb"
+    },
+    "A/baseline/code/frozen_cpp_runner.py": {
+      "bytes": 3444,
+      "sha256": "5034cca4950730ccfb1411171df510a671993bd4a6f31c3e41b5f888d16abbf4"
+    },
+    "A/baseline/code/frozen_runner.py": {
+      "bytes": 1835,
+      "sha256": "a058cb768346afc68476cf2669217acbfebafb9c0eb6a37baef6b9dc83ac8c4f"
+    },
+    "A/baseline/code/frozen_sources/t01/CMakeLists.txt": {
+      "bytes": 387,
+      "sha256": "c736762d60046f9e955139e84ca7d94fdb7a9ececa0bf2140bf1e9bbb482ff45"
+    },
+    "A/baseline/code/frozen_sources/t01/include/BirkoffInterpolation.h": {
+      "bytes": 353,
+      "sha256": "d770ef3a787385501eca8a3e2cc7654f1c17bd298c92df612e74017aa8ac7e8b"
+    },
+    "A/baseline/code/frozen_sources/t01/include/CartesianGridAndControlPoints.h": {
+      "bytes": 5068,
+      "sha256": "d709b1f996d56250b508523afb0b1e5e6cd74efaae5fe30932c91222a52bd655"
+    },
+    "A/baseline/code/frozen_sources/t01/include/CleanFiles.h": {
+      "bytes": 135,
+      "sha256": "06383c0109bc1e9b7627b16bfc13ff730ac7679358e8edb6939c012e208d87b6"
+    },
+    "A/baseline/code/frozen_sources/t01/include/Const.h": {
+      "bytes": 619,
+      "sha256": "a9326ed2188a7d17ef9fbe9763420b5aa3aef888b863843d9f0caf27ff72b5a9"
+    },
+    "A/baseline/code/frozen_sources/t01/include/CubicSpline.h": {
+      "bytes": 7381,
+      "sha256": "c0032f6e314c3196c4251bdf4c33f9a1786938b83d35c8af5663325b94c6ffab"
+    },
+    "A/baseline/code/frozen_sources/t01/include/Domains.h": {
+      "bytes": 3343,
+      "sha256": "65aacfe5a056af9a3f8244efabe387d39fbf2a3c221ea5e48a55182e1ce8c0f0"
+    },
+    "A/baseline/code/frozen_sources/t01/include/FastAlgorithm.h": {
+      "bytes": 930,
+      "sha256": "307b9975813dfd72f5d8c15cddbbb9476646f25ea54531869768c65a261427ef"
+    },
+    "A/baseline/code/frozen_sources/t01/include/FreeBoundaryModel.h": {
+      "bytes": 448,
+      "sha256": "c7d07ad24bca11db59bf4e1ee645863c93b26bdfc091041dd7881f08f49d3554"
+    },
+    "A/baseline/code/frozen_sources/t01/include/Householder.h": {
+      "bytes": 3752,
+      "sha256": "a74993729703e6ca0f493c5c84ca9a467ea56801912b872fce86a8fe7418db42"
+    },
+    "A/baseline/code/frozen_sources/t01/include/LU.h": {
+      "bytes": 2381,
+      "sha256": "9f1280b67af1a891a7a76ff674c1557f7917ec1ca9cfc69f40cf56cd51dd2ed7"
+    },
+    "A/baseline/code/frozen_sources/t01/include/LinearAlgebra.h": {
+      "bytes": 2723,
+      "sha256": "fbb09256e7f600ad51195e4e63341d5c142b4de54ab6a4e986d5e6052e46597e"
+    },
+    "A/baseline/code/frozen_sources/t01/include/MHelmholtzSolver.h": {
+      "bytes": 1181,
+      "sha256": "c9cc5ae0ffaa59387800074229294f2a33c476aa520f5289e5be83dc9da5b540"
+    },
+    "A/baseline/code/frozen_sources/t01/include/Norm.h": {
+      "bytes": 3191,
+      "sha256": "8d3f18f0b97d1164a06544485839b88c94e299b063c0fe5a15b5f231ed040a70"
+    },
+    "A/baseline/code/frozen_sources/t01/include/NormalDerivative.h": {
+      "bytes": 648,
+      "sha256": "5515b4650e9ac12374b98027b6d3d34eb412ea7b3c22e66bca582f519515afa6"
+    },
+    "A/baseline/code/frozen_sources/t01/include/PoissonSolver.h": {
+      "bytes": 1353,
+      "sha256": "b5429df0bf52806f63c74d830f27b12564a6bb2c5cb1fc9c85e56f5f43072b0b"
+    },
+    "A/baseline/code/frozen_sources/t01/include/Product.h": {
+      "bytes": 2652,
+      "sha256": "66601e5e7ec4d1d560312744532af6712611e4c084b1de501fb85eb445ae6e3b"
+    },
+    "A/baseline/code/frozen_sources/t01/include/QR.h": {
+      "bytes": 1847,
+      "sha256": "c0897097f12b96a977b12808b4f1eb08943f0fd25473a93d3ed518696f2ed45c"
+    },
+    "A/baseline/code/frozen_sources/t01/include/TangentialDerivatives.h": {
+      "bytes": 406,
+      "sha256": "965bd9f50564191e1863bc5fc24045794b8b79369db6d628fd5565e4d6910193"
+    },
+    "A/baseline/code/frozen_sources/t01/include/ThomasAlgorithm.h": {
+      "bytes": 1270,
+      "sha256": "56b341fe2a3a12f22d4a567754630932520476ef3a0701c657c4b2da285589ba"
+    },
+    "A/baseline/code/frozen_sources/t01/src/BirkoffInterpolation.cpp": {
+      "bytes": 2148,
+      "sha256": "676a6d2a55e4e5971326d66f32fd9e9e6f78568827663a075445a9544a4f2f2f"
+    },
+    "A/baseline/code/frozen_sources/t01/src/CartesianGridAndControlPoints.cpp": {
+      "bytes": 41451,
+      "sha256": "067c3572c67f45a23448a0a600bc2633d33600b22b6752f36e591dd69353e9d5"
+    },
+    "A/baseline/code/frozen_sources/t01/src/CleanFiles.cpp": {
+      "bytes": 178,
+      "sha256": "1773ca8dfc67aac612fc22815b878582df68efdfe192faed98e39cb814204ab1"
+    },
+    "A/baseline/code/frozen_sources/t01/src/FastAlgorithm.cpp": {
+      "bytes": 16076,
+      "sha256": "a05d0959c30c1758a25091caeac0d38e8471709fc7b206d69abcb50683440872"
+    },
+    "A/baseline/code/frozen_sources/t01/src/FreeBoundaryModel.cpp": {
+      "bytes": 5476,
+      "sha256": "8109777c368b503446da322106e5012dfff053aa73f88f762dbe1bfb678a221e"
+    },
+    "A/baseline/code/frozen_sources/t01/src/LinearAlgebra.cpp": {
+      "bytes": 22272,
+      "sha256": "a9884817b9127244546cacd755e42af8c643ea88eea3d883f2cc05f36f4c55bb"
+    },
+    "A/baseline/code/frozen_sources/t01/src/MHelmholtzSolver.cpp": {
+      "bytes": 11187,
+      "sha256": "304f365f1c11eea7ba2723514a2cf71ce2b466185477774c2e782c26f2ae0e69"
+    },
+    "A/baseline/code/frozen_sources/t01/src/NormalDerivative.cpp": {
+      "bytes": 5252,
+      "sha256": "04aff01acc56817091809cfec1c751b3a1be2e555eaaaa87230b58e1da76a1b0"
+    },
+    "A/baseline/code/frozen_sources/t01/src/PoissonSolver.cpp": {
+      "bytes": 10533,
+      "sha256": "df6f16764629eed7415272a43e95bdd3c082a3f2bb8099204145cd558a1b8419"
+    },
+    "A/baseline/code/frozen_sources/t01/src/TangentialDerivatives.cpp": {
+      "bytes": 4362,
+      "sha256": "252438e517e8a3703aa6a13bb1c0f4af6fcd9b6ea84454031044ef3458d10326"
+    },
+    "A/baseline/code/frozen_sources/t01/src/test.cpp": {
+      "bytes": 1826,
+      "sha256": "b52e822004cb461ba10d5a5635683e98dc74999f37a28374fd5187fa430603ed"
+    },
+    "A/baseline/code/frozen_sources/t03_core/CMakeLists.txt": {
+      "bytes": 395,
+      "sha256": "cdb65b23da3fe3f04ad99ce46c2836f875ca7acc2a301761776d464f9799297d"
+    },
+    "A/baseline/code/frozen_sources/t03_core/include/BirkoffInterpolation.h": {
+      "bytes": 353,
+      "sha256": "d770ef3a787385501eca8a3e2cc7654f1c17bd298c92df612e74017aa8ac7e8b"
+    },
+    "A/baseline/code/frozen_sources/t03_core/include/BoundaryInclusionCheck.h": {
+      "bytes": 302,
+      "sha256": "d93e7a16f5ac433e1dbf387ac0630d1305042b6ddf2a3656ddb952a6638aa8f8"
+    },
+    "A/baseline/code/frozen_sources/t03_core/include/CartesianGridAndControlPoints.h": {
+      "bytes": 4826,
+      "sha256": "0e98fc8cb18ec22c0cf0c7d48ddabca0f5774b9158ecd2c8254c6904ccd43f97"
+    },
+    "A/baseline/code/frozen_sources/t03_core/include/CleanFiles.h": {
+      "bytes": 135,
+      "sha256": "06383c0109bc1e9b7627b16bfc13ff730ac7679358e8edb6939c012e208d87b6"
+    },
+    "A/baseline/code/frozen_sources/t03_core/include/Const.h": {
+      "bytes": 619,
+      "sha256": "a9326ed2188a7d17ef9fbe9763420b5aa3aef888b863843d9f0caf27ff72b5a9"
+    },
+    "A/baseline/code/frozen_sources/t03_core/include/CubicSpline.h": {
+      "bytes": 8405,
+      "sha256": "e89f2432730a71114cabb8562bd6bb1a0606f807d0d894a27b5bca726768c855"
+    },
+    "A/baseline/code/frozen_sources/t03_core/include/Domains.h": {
+      "bytes": 3454,
+      "sha256": "e105a89f45c2ebb41bf92bfaf982334e3dfd496200e0c2de11fe45eecfc5fc90"
+    },
+    "A/baseline/code/frozen_sources/t03_core/include/ExtractBoundaryData.h": {
+      "bytes": 232,
+      "sha256": "67414cb75b3b45824a25828d3295be33716cce8b93924f458866cb8d4917bf5c"
+    },
+    "A/baseline/code/frozen_sources/t03_core/include/ExtractBoundaryPoints.h": {
+      "bytes": 593,
+      "sha256": "64ca913d4ae9c6b636242cbaaf29d110be4ae98b9aae622eead0ad9d88e42918"
+    },
+    "A/baseline/code/frozen_sources/t03_core/include/FastAlgorithm.h": {
+      "bytes": 1023,
+      "sha256": "a8d1725a0e0fb5311f8b23d5c0adfc583b427fc5992d78d04264a7d7a8fb66b0"
+    },
+    "A/baseline/code/frozen_sources/t03_core/include/FreeBoundaryModel.h": {
+      "bytes": 540,
+      "sha256": "214e65f6d6e6d8f30330980ebb5eb23e2967e35019210aaf7d9bcf8ccf07d40d"
+    },
+    "A/baseline/code/frozen_sources/t03_core/include/GMRES.h": {
+      "bytes": 246,
+      "sha256": "b2c8dd98fc4e4b296842b2223e1fcff57ec3bba4fca07719fa981fab2cbd5fcc"
+    },
+    "A/baseline/code/frozen_sources/t03_core/include/Householder.h": {
+      "bytes": 3752,
+      "sha256": "a74993729703e6ca0f493c5c84ca9a467ea56801912b872fce86a8fe7418db42"
+    },
+    "A/baseline/code/frozen_sources/t03_core/include/InterfaceBvpSolver.h": {
+      "bytes": 1293,
+      "sha256": "4c7bd448ef64eb8276ec802b1b4f1cf433d0f99fc3988ede01d8900a32511356"
+    },
+    "A/baseline/code/frozen_sources/t03_core/include/LU.h": {
+      "bytes": 2381,
+      "sha256": "9f1280b67af1a891a7a76ff674c1557f7917ec1ca9cfc69f40cf56cd51dd2ed7"
+    },
+    "A/baseline/code/frozen_sources/t03_core/include/LinearAlgebra.h": {
+      "bytes": 3252,
+      "sha256": "edbb3d0cf913765721172dc03e43b0b93568f6701113f2ec5734a85cb1f0bc18"
+    },
+    "A/baseline/code/frozen_sources/t03_core/include/Norm.h": {
+      "bytes": 3191,
+      "sha256": "8d3f18f0b97d1164a06544485839b88c94e299b063c0fe5a15b5f231ed040a70"
+    },
+    "A/baseline/code/frozen_sources/t03_core/include/NormalDerivative.h": {
+      "bytes": 648,
+      "sha256": "5515b4650e9ac12374b98027b6d3d34eb412ea7b3c22e66bca582f519515afa6"
+    },
+    "A/baseline/code/frozen_sources/t03_core/include/PrimalDualAlgorithm.h": {
+      "bytes": 325,
+      "sha256": "9e1146c6e33c8e0b279e4b23ead3cbeb5d70bef2014530798455da31e87bf36a"
+    },
+    "A/baseline/code/frozen_sources/t03_core/include/Product.h": {
+      "bytes": 2652,
+      "sha256": "66601e5e7ec4d1d560312744532af6712611e4c084b1de501fb85eb445ae6e3b"
+    },
+    "A/baseline/code/frozen_sources/t03_core/include/QR.h": {
+      "bytes": 1847,
+      "sha256": "c0897097f12b96a977b12808b4f1eb08943f0fd25473a93d3ed518696f2ed45c"
+    },
+    "A/baseline/code/frozen_sources/t03_core/include/TangentialDerivatives.h": {
+      "bytes": 406,
+      "sha256": "965bd9f50564191e1863bc5fc24045794b8b79369db6d628fd5565e4d6910193"
+    },
+    "A/baseline/code/frozen_sources/t03_core/include/ThomasAlgorithm.h": {
+      "bytes": 1270,
+      "sha256": "56b341fe2a3a12f22d4a567754630932520476ef3a0701c657c4b2da285589ba"
+    },
+    "A/baseline/code/frozen_sources/t03_core/src/BirkoffInterpolation.cpp": {
+      "bytes": 2148,
+      "sha256": "676a6d2a55e4e5971326d66f32fd9e9e6f78568827663a075445a9544a4f2f2f"
+    },
+    "A/baseline/code/frozen_sources/t03_core/src/BoundaryInclusionCheck.cpp": {
+      "bytes": 1085,
+      "sha256": "2225f7f4eb17d8462850d8619e84adc920027161103b70d9c85e569947a56fbe"
+    },
+    "A/baseline/code/frozen_sources/t03_core/src/CartesianGridAndControlPoints.cpp": {
+      "bytes": 34915,
+      "sha256": "d60f46ede1eec4a3c4baccbd2e244052e11ef4c9d67880a4f7016fdf899895ea"
+    },
+    "A/baseline/code/frozen_sources/t03_core/src/CleanFiles.cpp": {
+      "bytes": 82,
+      "sha256": "1e14d4573cf9ba4b5d9d631e4e380facbf9eebf944dda6c11654677368148fd9"
+    },
+    "A/baseline/code/frozen_sources/t03_core/src/ExtractBoundaryData.cpp": {
+      "bytes": 2301,
+      "sha256": "48b08c703dfedea627c7ca50f0b68989a52bcf7fc91788738dece663c788fc89"
+    },
+    "A/baseline/code/frozen_sources/t03_core/src/ExtractBoundaryPoints.cpp": {
+      "bytes": 1577,
+      "sha256": "006d1376c56871a82a822f50274771d93a0e51aa67e8d77c73c475c3239c43fd"
+    },
+    "A/baseline/code/frozen_sources/t03_core/src/FastAlgorithm.cpp": {
+      "bytes": 17156,
+      "sha256": "7df0567c93caffc902d09f93f70b298ee831994977f9a34640704b57d2092b5e"
+    },
+    "A/baseline/code/frozen_sources/t03_core/src/FreeBoundaryModel.cpp": {
+      "bytes": 23728,
+      "sha256": "d1ba946a6cd7448d5952ae793e2719ad76f34fbc49266a8858a8c8d2c264a93f"
+    },
+    "A/baseline/code/frozen_sources/t03_core/src/GMRES.cpp": {
+      "bytes": 9648,
+      "sha256": "887370191baac56db646cc5b198823a3a92b8155003b440700afe5ca1e4558e5"
+    },
+    "A/baseline/code/frozen_sources/t03_core/src/InterfaceBvpSolver.cpp": {
+      "bytes": 13266,
+      "sha256": "b1c527abffe872d904de62be96193817010b8f7531493cd17f20848ffe315761"
+    },
+    "A/baseline/code/frozen_sources/t03_core/src/LinearAlgebra.cpp": {
+      "bytes": 31566,
+      "sha256": "a877420d176d175cc48039d21c50cae472e5a9d3ef32d92b69690afe7302dea0"
+    },
+    "A/baseline/code/frozen_sources/t03_core/src/NormalDerivative.cpp": {
+      "bytes": 5256,
+      "sha256": "3c6495d70c7bdb89e7d43a52a3892e67d527be63b8c3b9a6792281bd092a404b"
+    },
+    "A/baseline/code/frozen_sources/t03_core/src/PrimalDualAlgorithm.cpp": {
+      "bytes": 12852,
+      "sha256": "496d83ce31eb2ca8b29a1620eb94a8e314905ba74804c7acb2dd0219ac764259"
+    },
+    "A/baseline/code/frozen_sources/t03_core/src/TangentialDerivatives.cpp": {
+      "bytes": 4362,
+      "sha256": "252438e517e8a3703aa6a13bb1c0f4af6fcd9b6ea84454031044ef3458d10326"
+    },
+    "A/baseline/code/frozen_sources/t03_core/src/test.cpp": {
+      "bytes": 1884,
+      "sha256": "5bb114f43b32232754e00011a608f6ee3558cd1595dbb3cc3178f9ce691699aa"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/CMakeLists.txt": {
+      "bytes": 449,
+      "sha256": "adb5a85bd95a80750daf850e727f2dc60e9883eded48e72173a3597b4907f78c"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/include/BirkoffInterpolation.h": {
+      "bytes": 353,
+      "sha256": "d770ef3a787385501eca8a3e2cc7654f1c17bd298c92df612e74017aa8ac7e8b"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/include/BoundaryInclusionCheck.h": {
+      "bytes": 302,
+      "sha256": "d93e7a16f5ac433e1dbf387ac0630d1305042b6ddf2a3656ddb952a6638aa8f8"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/include/CartesianGridAndControlPoints.h": {
+      "bytes": 4826,
+      "sha256": "0e98fc8cb18ec22c0cf0c7d48ddabca0f5774b9158ecd2c8254c6904ccd43f97"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/include/CartesianGridAndControlPoints0.h": {
+      "bytes": 5146,
+      "sha256": "c7eaf49271f9b6e2cda43f3a7d7adc3e3e58d1ace2723eeef6d3cac66f80054c"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/include/CleanFiles.h": {
+      "bytes": 135,
+      "sha256": "06383c0109bc1e9b7627b16bfc13ff730ac7679358e8edb6939c012e208d87b6"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/include/Config.h": {
+      "bytes": 175,
+      "sha256": "79841e72fe5a7ef6c9f6e484cd04a604d09f8d99f19c13691359fbf7f9ff2f45"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/include/Const.h": {
+      "bytes": 619,
+      "sha256": "a9326ed2188a7d17ef9fbe9763420b5aa3aef888b863843d9f0caf27ff72b5a9"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/include/CubicSpline.h": {
+      "bytes": 8405,
+      "sha256": "e89f2432730a71114cabb8562bd6bb1a0606f807d0d894a27b5bca726768c855"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/include/Domains.h": {
+      "bytes": 3454,
+      "sha256": "e105a89f45c2ebb41bf92bfaf982334e3dfd496200e0c2de11fe45eecfc5fc90"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/include/ExtractBoundaryData.h": {
+      "bytes": 232,
+      "sha256": "67414cb75b3b45824a25828d3295be33716cce8b93924f458866cb8d4917bf5c"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/include/ExtractBoundaryPoints.h": {
+      "bytes": 593,
+      "sha256": "64ca913d4ae9c6b636242cbaaf29d110be4ae98b9aae622eead0ad9d88e42918"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/include/FastAlgorithm.h": {
+      "bytes": 1023,
+      "sha256": "a8d1725a0e0fb5311f8b23d5c0adfc583b427fc5992d78d04264a7d7a8fb66b0"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/include/FreeBoundaryModel.h": {
+      "bytes": 325,
+      "sha256": "f06895ba6029db9ab92016c032f2c8b0bd6ee089860773ccc3b2bc228ae0db79"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/include/GMRES.h": {
+      "bytes": 246,
+      "sha256": "b2c8dd98fc4e4b296842b2223e1fcff57ec3bba4fca07719fa981fab2cbd5fcc"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/include/Householder.h": {
+      "bytes": 3752,
+      "sha256": "a74993729703e6ca0f493c5c84ca9a467ea56801912b872fce86a8fe7418db42"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/include/InterfaceBvpSolver.h": {
+      "bytes": 1210,
+      "sha256": "38d005bc3587b0d80c3b6d5c42740cfd1e36cf31d991f87572aa62b69773b56b"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/include/LU.h": {
+      "bytes": 2381,
+      "sha256": "9f1280b67af1a891a7a76ff674c1557f7917ec1ca9cfc69f40cf56cd51dd2ed7"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/include/LinearAlgebra.h": {
+      "bytes": 3252,
+      "sha256": "edbb3d0cf913765721172dc03e43b0b93568f6701113f2ec5734a85cb1f0bc18"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/include/MHelmholtzSolver.h": {
+      "bytes": 227,
+      "sha256": "388a7c25bd8a5573ea3b4224768813da7a1cffe27ab415cdfff4e9473e9ff93d"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/include/Norm.h": {
+      "bytes": 3191,
+      "sha256": "8d3f18f0b97d1164a06544485839b88c94e299b063c0fe5a15b5f231ed040a70"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/include/NormalDerivative.h": {
+      "bytes": 370,
+      "sha256": "54b59b78e016e06f2aad6e04ee8cd1ca9e64464b91a7b16a19499cc58e09d833"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/include/PoissonSolver.h": {
+      "bytes": 284,
+      "sha256": "1c094e9a85dd3d29ea6866c7a4f5c88383005edfa5d8862bf85785364e995247"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/include/PrimalDualAlgorithm.h": {
+      "bytes": 325,
+      "sha256": "9e1146c6e33c8e0b279e4b23ead3cbeb5d70bef2014530798455da31e87bf36a"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/include/Product.h": {
+      "bytes": 2652,
+      "sha256": "66601e5e7ec4d1d560312744532af6712611e4c084b1de501fb85eb445ae6e3b"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/include/QR.h": {
+      "bytes": 1847,
+      "sha256": "c0897097f12b96a977b12808b4f1eb08943f0fd25473a93d3ed518696f2ed45c"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/include/TangentialDerivatives.h": {
+      "bytes": 406,
+      "sha256": "965bd9f50564191e1863bc5fc24045794b8b79369db6d628fd5565e4d6910193"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/include/ThomasAlgorithm.h": {
+      "bytes": 1270,
+      "sha256": "56b341fe2a3a12f22d4a567754630932520476ef3a0701c657c4b2da285589ba"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/src/BirkoffInterpolation.cpp": {
+      "bytes": 2148,
+      "sha256": "676a6d2a55e4e5971326d66f32fd9e9e6f78568827663a075445a9544a4f2f2f"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/src/BoundaryInclusionCheck.cpp": {
+      "bytes": 1085,
+      "sha256": "2225f7f4eb17d8462850d8619e84adc920027161103b70d9c85e569947a56fbe"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/src/CartesianGridAndControlPoints.cpp": {
+      "bytes": 34915,
+      "sha256": "d60f46ede1eec4a3c4baccbd2e244052e11ef4c9d67880a4f7016fdf899895ea"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/src/CartesianGridAndControlPoints0.cpp": {
+      "bytes": 41611,
+      "sha256": "0fae7c6ece7c43c80e62251874d5ecaeba965ede69db111532d5996db42b7207"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/src/CleanFiles.cpp": {
+      "bytes": 82,
+      "sha256": "1e14d4573cf9ba4b5d9d631e4e380facbf9eebf944dda6c11654677368148fd9"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/src/Config.cpp": {
+      "bytes": 147,
+      "sha256": "39ef55bf58630182a8ee8793871576a64691b9d70814b016d99b7aa104211cd9"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/src/ExtractBoundaryData.cpp": {
+      "bytes": 2301,
+      "sha256": "48b08c703dfedea627c7ca50f0b68989a52bcf7fc91788738dece663c788fc89"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/src/ExtractBoundaryPoints.cpp": {
+      "bytes": 1582,
+      "sha256": "05ea4a5277fb2beb99666d0c4df8806d3b799d598af081bcbcbd9b933412024b"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/src/FastAlgorithm.cpp": {
+      "bytes": 17156,
+      "sha256": "7df0567c93caffc902d09f93f70b298ee831994977f9a34640704b57d2092b5e"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/src/FreeBoundaryModel.cpp": {
+      "bytes": 29510,
+      "sha256": "ee769140c99f2c43dd8e0604aae5f568b452c85e86fac70f4fab0c6df5f57381"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/src/GMRES.cpp": {
+      "bytes": 9648,
+      "sha256": "887370191baac56db646cc5b198823a3a92b8155003b440700afe5ca1e4558e5"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/src/InterfaceBvpSolver.cpp": {
+      "bytes": 13226,
+      "sha256": "dd247a29a2f0cffc5ee7a0135501ea45d75329b541bf966a76f0c5a24931b9b9"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/src/LinearAlgebra.cpp": {
+      "bytes": 31567,
+      "sha256": "f3df6cdfd66717592b0abaf3a9b0b85a4db181ea73afb1a5d82ce9f6ee6a5db6"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/src/MHelmholtzSolver.cpp": {
+      "bytes": 9085,
+      "sha256": "0a774bc97daa0b04b57b23464e6a4f456a34cf1818fca744c36f4a296e8797fc"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/src/NormalDerivative.cpp": {
+      "bytes": 10397,
+      "sha256": "621ad878a0bb6ceea346ce4ce378656d911cc42844360092677de2b41f2578fb"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/src/PoissonSolver.cpp": {
+      "bytes": 10480,
+      "sha256": "7abacfcbf6c7f88f8273c1439649523da0068a4a2b942bcf08f48126e959f7aa"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/src/PrimalDualAlgorithm.cpp": {
+      "bytes": 12872,
+      "sha256": "92a65003b2fe6f9cf2b8cc2a17e3016a780af4b2a73805064c4da5cea28b8c83"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/src/TangentialDerivatives.cpp": {
+      "bytes": 4362,
+      "sha256": "252438e517e8a3703aa6a13bb1c0f4af6fcd9b6ea84454031044ef3458d10326"
+    },
+    "A/baseline/code/frozen_sources/t03_emergence/src/test.cpp": {
+      "bytes": 1560,
+      "sha256": "02b2f4aa9faa5dc1470b95f9544cb8a4bf670b12df6d705fa3d38f6c6a7b2864"
+    },
+    "A/baseline/code/requirements.lock.txt": {
+      "bytes": 200,
+      "sha256": "ccbd8229d222a361c760f829c0e3e62beb09d9afe392e7ce5bfd1f46a96aa368"
+    },
+    "A/baseline/code/t01/postprocess.py": {
+      "bytes": 9155,
+      "sha256": "75d832af0ee3db36c1e64f6efffa49d6376f52f82e6b9e057d31ef5eadb05d5d"
+    },
+    "A/baseline/code/t01/requirements-windows.lock.txt": {
+      "bytes": 200,
+      "sha256": "ccbd8229d222a361c760f829c0e3e62beb09d9afe392e7ce5bfd1f46a96aa368"
+    },
+    "A/baseline/code/t01/results/.gitkeep": {
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "A/baseline/code/t01/traveling_wave.py": {
+      "bytes": 4992,
+      "sha256": "800599347e3aecc271c7ff20c594340d6b53ba4c239725c803445eb8aa64886f"
+    },
+    "A/baseline/code/t02/compare_resolutions.py": {
+      "bytes": 3525,
+      "sha256": "134295b1ded73fcc7474e2d90b103b0ce4f6caa186dfb28f2395bcc45b29e13c"
+    },
+    "A/baseline/code/t02/free_boundary_spectral.py": {
+      "bytes": 6239,
+      "sha256": "b03b606610b953e63bec4d682647f2c58336e167c11592d72a81da55ab860e87"
+    },
+    "A/baseline/code/t02/planar_front.py": {
+      "bytes": 6974,
+      "sha256": "80c103ee9ba935242fb9acb58eafa1c3ef67e70483a62917e23632cfb2d76eaa"
+    },
+    "A/baseline/code/t02/results/.gitkeep": {
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "A/baseline/code/t02/validate_spectral.py": {
+      "bytes": 2816,
+      "sha256": "699f383860fde419a186c6a4fb5fc7179dab80c2858484bf7cce2f837bf4df12"
+    },
+    "A/baseline/code/t03/onset_probe.cpp": {
+      "bytes": 1499,
+      "sha256": "ea66d6f5620dedacdfdfd5d78b4da242cf7d420770853acd0f43c9d98725ca3f"
+    },
+    "A/baseline/code/t03/postprocess.py": {
+      "bytes": 10124,
+      "sha256": "a6bda15452e1b4a2c531f1e96d36d4e64f88431ee5a5eedd01389dc7ea290261"
+    },
+    "A/baseline/code/t03/results/.gitkeep": {
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "A/baseline/code/t03/run_onset_probe.py": {
+      "bytes": 2530,
+      "sha256": "b4ba9998dcd3ff23e2f816581bee5e708c308db02561bfbd17cd883228b6c688"
+    },
+    "A/baseline/code/t04/results/.gitkeep": {
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "A/baseline/code/t04/run_t04.py": {
+      "bytes": 9067,
+      "sha256": "7fc117d51882156c845866b4cc33ad0e30646710c0b2d53c7349b775ff3720f7"
+    },
+    "A/baseline/code/t04/validate_transport_reaction.py": {
+      "bytes": 2090,
+      "sha256": "81102c76d89ab777a7d869d18beadc80a7310c0ddfe2f7adc9dc799547d2add0"
+    },
+    "A/demo.py": {
+      "bytes": 2094,
+      "sha256": "6746ee3ce16e2842f331aae2e1e6de47eca823a5fd02f0c14dbcf8e592489df1"
+    },
+    "A/requirements.lock.txt": {
+      "bytes": 200,
+      "sha256": "ccbd8229d222a361c760f829c0e3e62beb09d9afe392e7ce5bfd1f46a96aa368"
+    },
+    "A/run.py": {
+      "bytes": 1385,
+      "sha256": "5259a78e6a06de6310338612635926106ee4bc5bb0f13cd7ea2dce3612eddbf3"
+    },
+    "A/supplement/README.md": {
+      "bytes": 286,
+      "sha256": "5ca9bdc9aa6aa6903ea1ce93590d62fe8de3bc58b1e97db3ea08049fcb5b648d"
+    },
+    "A/supplement/requirements.txt": {
+      "bytes": 200,
+      "sha256": "ccbd8229d222a361c760f829c0e3e62beb09d9afe392e7ce5bfd1f46a96aa368"
+    },
+    "A/supplement/run_t01_supplements.py": {
+      "bytes": 829,
+      "sha256": "d0ea5126d7eb7f5da03e9a2068c35bfe97a8844cb8e2858e5299578e0f24f5f3"
+    },
+    "A/supplement/sources/planar_front.py": {
+      "bytes": 6974,
+      "sha256": "80c103ee9ba935242fb9acb58eafa1c3ef67e70483a62917e23632cfb2d76eaa"
+    },
+    "A/supplement/sources/t01/CMakeLists.txt": {
+      "bytes": 387,
+      "sha256": "c736762d60046f9e955139e84ca7d94fdb7a9ececa0bf2140bf1e9bbb482ff45"
+    },
+    "A/supplement/sources/t01/include/BirkoffInterpolation.h": {
+      "bytes": 353,
+      "sha256": "d770ef3a787385501eca8a3e2cc7654f1c17bd298c92df612e74017aa8ac7e8b"
+    },
+    "A/supplement/sources/t01/include/CartesianGridAndControlPoints.h": {
+      "bytes": 5068,
+      "sha256": "d709b1f996d56250b508523afb0b1e5e6cd74efaae5fe30932c91222a52bd655"
+    },
+    "A/supplement/sources/t01/include/CleanFiles.h": {
+      "bytes": 135,
+      "sha256": "06383c0109bc1e9b7627b16bfc13ff730ac7679358e8edb6939c012e208d87b6"
+    },
+    "A/supplement/sources/t01/include/Const.h": {
+      "bytes": 619,
+      "sha256": "a9326ed2188a7d17ef9fbe9763420b5aa3aef888b863843d9f0caf27ff72b5a9"
+    },
+    "A/supplement/sources/t01/include/CubicSpline.h": {
+      "bytes": 7381,
+      "sha256": "c0032f6e314c3196c4251bdf4c33f9a1786938b83d35c8af5663325b94c6ffab"
+    },
+    "A/supplement/sources/t01/include/Domains.h": {
+      "bytes": 3343,
+      "sha256": "65aacfe5a056af9a3f8244efabe387d39fbf2a3c221ea5e48a55182e1ce8c0f0"
+    },
+    "A/supplement/sources/t01/include/FastAlgorithm.h": {
+      "bytes": 930,
+      "sha256": "307b9975813dfd72f5d8c15cddbbb9476646f25ea54531869768c65a261427ef"
+    },
+    "A/supplement/sources/t01/include/FreeBoundaryModel.h": {
+      "bytes": 448,
+      "sha256": "c7d07ad24bca11db59bf4e1ee645863c93b26bdfc091041dd7881f08f49d3554"
+    },
+    "A/supplement/sources/t01/include/Householder.h": {
+      "bytes": 3752,
+      "sha256": "a74993729703e6ca0f493c5c84ca9a467ea56801912b872fce86a8fe7418db42"
+    },
+    "A/supplement/sources/t01/include/LU.h": {
+      "bytes": 2381,
+      "sha256": "9f1280b67af1a891a7a76ff674c1557f7917ec1ca9cfc69f40cf56cd51dd2ed7"
+    },
+    "A/supplement/sources/t01/include/LinearAlgebra.h": {
+      "bytes": 2723,
+      "sha256": "fbb09256e7f600ad51195e4e63341d5c142b4de54ab6a4e986d5e6052e46597e"
+    },
+    "A/supplement/sources/t01/include/MHelmholtzSolver.h": {
+      "bytes": 1181,
+      "sha256": "c9cc5ae0ffaa59387800074229294f2a33c476aa520f5289e5be83dc9da5b540"
+    },
+    "A/supplement/sources/t01/include/Norm.h": {
+      "bytes": 3191,
+      "sha256": "8d3f18f0b97d1164a06544485839b88c94e299b063c0fe5a15b5f231ed040a70"
+    },
+    "A/supplement/sources/t01/include/NormalDerivative.h": {
+      "bytes": 648,
+      "sha256": "5515b4650e9ac12374b98027b6d3d34eb412ea7b3c22e66bca582f519515afa6"
+    },
+    "A/supplement/sources/t01/include/PoissonSolver.h": {
+      "bytes": 1353,
+      "sha256": "b5429df0bf52806f63c74d830f27b12564a6bb2c5cb1fc9c85e56f5f43072b0b"
+    },
+    "A/supplement/sources/t01/include/Product.h": {
+      "bytes": 2652,
+      "sha256": "66601e5e7ec4d1d560312744532af6712611e4c084b1de501fb85eb445ae6e3b"
+    },
+    "A/supplement/sources/t01/include/QR.h": {
+      "bytes": 1847,
+      "sha256": "c0897097f12b96a977b12808b4f1eb08943f0fd25473a93d3ed518696f2ed45c"
+    },
+    "A/supplement/sources/t01/include/TangentialDerivatives.h": {
+      "bytes": 406,
+      "sha256": "965bd9f50564191e1863bc5fc24045794b8b79369db6d628fd5565e4d6910193"
+    },
+    "A/supplement/sources/t01/include/ThomasAlgorithm.h": {
+      "bytes": 1270,
+      "sha256": "56b341fe2a3a12f22d4a567754630932520476ef3a0701c657c4b2da285589ba"
+    },
+    "A/supplement/sources/t01/src/BirkoffInterpolation.cpp": {
+      "bytes": 2148,
+      "sha256": "676a6d2a55e4e5971326d66f32fd9e9e6f78568827663a075445a9544a4f2f2f"
+    },
+    "A/supplement/sources/t01/src/CartesianGridAndControlPoints.cpp": {
+      "bytes": 41451,
+      "sha256": "067c3572c67f45a23448a0a600bc2633d33600b22b6752f36e591dd69353e9d5"
+    },
+    "A/supplement/sources/t01/src/CleanFiles.cpp": {
+      "bytes": 178,
+      "sha256": "1773ca8dfc67aac612fc22815b878582df68efdfe192faed98e39cb814204ab1"
+    },
+    "A/supplement/sources/t01/src/FastAlgorithm.cpp": {
+      "bytes": 16076,
+      "sha256": "a05d0959c30c1758a25091caeac0d38e8471709fc7b206d69abcb50683440872"
+    },
+    "A/supplement/sources/t01/src/FreeBoundaryModel.cpp": {
+      "bytes": 5476,
+      "sha256": "8109777c368b503446da322106e5012dfff053aa73f88f762dbe1bfb678a221e"
+    },
+    "A/supplement/sources/t01/src/LinearAlgebra.cpp": {
+      "bytes": 22272,
+      "sha256": "a9884817b9127244546cacd755e42af8c643ea88eea3d883f2cc05f36f4c55bb"
+    },
+    "A/supplement/sources/t01/src/MHelmholtzSolver.cpp": {
+      "bytes": 11187,
+      "sha256": "304f365f1c11eea7ba2723514a2cf71ce2b466185477774c2e782c26f2ae0e69"
+    },
+    "A/supplement/sources/t01/src/NormalDerivative.cpp": {
+      "bytes": 5252,
+      "sha256": "04aff01acc56817091809cfec1c751b3a1be2e555eaaaa87230b58e1da76a1b0"
+    },
+    "A/supplement/sources/t01/src/PoissonSolver.cpp": {
+      "bytes": 10533,
+      "sha256": "df6f16764629eed7415272a43e95bdd3c082a3f2bb8099204145cd558a1b8419"
+    },
+    "A/supplement/sources/t01/src/TangentialDerivatives.cpp": {
+      "bytes": 4362,
+      "sha256": "252438e517e8a3703aa6a13bb1c0f4af6fcd9b6ea84454031044ef3458d10326"
+    },
+    "A/supplement/sources/t01/src/test.cpp": {
+      "bytes": 1826,
+      "sha256": "b52e822004cb461ba10d5a5635683e98dc74999f37a28374fd5187fa430603ed"
+    },
+    "A/supplement/t01/postprocess.py": {
+      "bytes": 9155,
+      "sha256": "75d832af0ee3db36c1e64f6efffa49d6376f52f82e6b9e057d31ef5eadb05d5d"
+    },
+    "A/supplement/t01_supplements_linux.py": {
+      "bytes": 2486,
+      "sha256": "16cceefbe7b71aeacb35e1a1bc8216a01b0cdcf2c03ee3119929cfa6d9840a9a"
+    },
+    "A/supplement/t02_parameter_scan.py": {
+      "bytes": 5155,
+      "sha256": "5937ab1e28044b1b905a5c1fbceb36f8d9b259d54fcabffa8eb48262bc524abc"
+    },
+    "B/T05/NOTICE.md": {
+      "bytes": 478,
+      "sha256": "f560ee05384ab298265498472e3380d270883c203cd9e74006a0cbe8d106a855"
+    },
+    "B/T05/README.md": {
+      "bytes": 3523,
+      "sha256": "8aacca95f5d82f8818dd28fbfdb1a1a865e2621b3ec0c3486f5a8253b062e585"
+    },
+    "B/T05/experiment_config.m": {
+      "bytes": 415,
+      "sha256": "4ad6b05e9a8ad6824e32b26736f4a50719c82f2a31e8be3a42364060cb22c3ee"
+    },
+    "B/T05/run_experiment.m": {
+      "bytes": 3973,
+      "sha256": "64aaf3dabcd4130881ceb74f201b7f442ae11c4779f5b05819e715203b55e6d3"
+    },
+    "B/T05/solver/gpc_growth.m": {
+      "bytes": 653,
+      "sha256": "94ba64f0b270f47300cf8cde230456e49d4b6b6d6517ba8acc45aff6782b6a9b"
+    },
+    "B/T05/solver/initial_density.m": {
+      "bytes": 642,
+      "sha256": "0a3408eee38dfc3206b182618a3a59aeb8c75e37598ee18067c62f2663db8876"
+    },
+    "B/T05/solver/legendre_basis.m": {
+      "bytes": 424,
+      "sha256": "72bb8c5c9a2e5789bc5b0e9e8a0e40c89a6a17ac0b7e015ac52f8e90e62b16ea"
+    },
+    "B/T05/solver/lgwt.m": {
+      "bytes": 1476,
+      "sha256": "0e8a46a8975a70af092ad381f0a4ff580f2750345052cc691b5e2042e551aeb8"
+    },
+    "B/T05/solver/nutrient_field.m": {
+      "bytes": 613,
+      "sha256": "1acabc1e97ea4b9fba869fc39e2f4026addd4e1273c4f5d5be391fa03b6af249"
+    },
+    "B/T05/solver/sc_growth.m": {
+      "bytes": 231,
+      "sha256": "cbd86d4b1ff2fcaabfe57b4c521e4379c031dbc74d8d90cc5c41c91f3efdce3d"
+    },
+    "B/T05/solver/solve_gpc_sg.m": {
+      "bytes": 8267,
+      "sha256": "e1f656a1a50314f17d17e96dba4b3d95e5125f9e389be38de1e842c243e1cb60"
+    },
+    "B/T05/solver/solve_sc.m": {
+      "bytes": 9415,
+      "sha256": "a29315d8bb07cf925a0ac6c951bef671d09f91c609b254594e05a27917698f2f"
+    },
+    "B/T06/NOTICE.md": {
+      "bytes": 569,
+      "sha256": "5f8c5e587fdcb3ee06a9b570e546431b6678d010aa32fab02ce104996dade936"
+    },
+    "B/T06/README.md": {
+      "bytes": 5944,
+      "sha256": "d9887da7d856c7b12c37dd7cf007f639013942d35420e8efe363d371d4f66378"
+    },
+    "B/T06/experiment_config.m": {
+      "bytes": 1406,
+      "sha256": "8cacbe3aba25658bc22847c424f3664bc72e720892ddf782eac18ff136edd5ca"
+    },
+    "B/T06/run_experiment.m": {
+      "bytes": 10326,
+      "sha256": "e068330dc4f2632184a144c4278244017a7d917a2c82d60ff5d9c3307a2e65bf"
+    },
+    "B/T06/run_reference.m": {
+      "bytes": 451,
+      "sha256": "fda7b75f8f93d866add813476f9e3144c3c2db4f5091876da1f578692653b13a"
+    },
+    "B/T06/solver/enrich_basis.m": {
+      "bytes": 3145,
+      "sha256": "116f76a3e07a79e66581e61fd0ad4921b56b3268dc8f26b0deb7d3b90e412b18"
+    },
+    "B/T06/solver/evaluate_basis.m": {
+      "bytes": 988,
+      "sha256": "68b61554655bda4b58eb628e53c5b2fa054cc241ebbc7f68cb167a0eedb6e179"
+    },
+    "B/T06/solver/fast_marching.m": {
+      "bytes": 3471,
+      "sha256": "b08200d95ce25122a5bcd7c574a6f06903ff8baa48a44a8204fddd8b2795ab77"
+    },
+    "B/T06/solver/model_parameters.m": {
+      "bytes": 424,
+      "sha256": "b125d9b3f686c863fae9050e691891d343f4eaeb4be48b6a7c32325cdf3c1bd5"
+    },
+    "B/T06/solver/projection_matrix.m": {
+      "bytes": 300,
+      "sha256": "f60ba2ed51077275f148415b59a627e582390c9128b77338f79b3254b4586f87"
+    },
+    "B/T06/solver/sample_parameters.m": {
+      "bytes": 212,
+      "sha256": "40217f0ffca0ce34d5ea881a41c8a8e53761a367d77754fcc440757d5e73f79a"
+    },
+    "B/T06/solver/select_basis.m": {
+      "bytes": 2191,
+      "sha256": "1e9b79344f3aed8ac0a22e2176ffb054a8a6415d58aa3d6749e6435c4caef8d4"
+    },
+    "B/T06/solver/solve_cmpme.m": {
+      "bytes": 267,
+      "sha256": "1f562835a3b87e29e6b456e97155f6498890fd354aa050cc7b6203e10e4a73fd"
+    },
+    "B/T06/solver/solve_heleshaw.m": {
+      "bytes": 2699,
+      "sha256": "ddaa8df5fd59701e5ea108703d1bcbcfa7923b534f3ce0a805607a765b33016d"
+    },
+    "B/T06/solver/solve_pme.m": {
+      "bytes": 9100,
+      "sha256": "ac82fce88dfb2e1009a8328b733a930b13e0a22986e5ed33f21f253055f1da3d"
+    },
+    "B/T06/solver/solve_sample.m": {
+      "bytes": 1072,
+      "sha256": "3d2eaaa5af3435961b9b770cc64bb9bdc891b9abe0894da5ee35925a67458a2e"
+    },
+    "B/T07/README.md": {
+      "bytes": 1364,
+      "sha256": "b0b9bb42edbc8fc5c51171dcb780a843ceb47d52e2a84a440e5afa5ab6dfeebc"
+    },
+    "B/T07/reference/G_Fun.m": {
+      "bytes": 272,
+      "sha256": "2998d03e5d90062b3d431488ae1d0e230e0f36e25170ba540c44797e0e981cd0"
+    },
+    "B/T07/reference/G_Function.m": {
+      "bytes": 353,
+      "sha256": "ac1d39af042b6d0f3fe6b452560a359b5da816109fe0b04b003023de71faf222"
+    },
+    "B/T07/reference/MCMC_Test1b.m": {
+      "bytes": 820,
+      "sha256": "0908490c4aa7e6cafa19a86367b13de473597e416b57ced5a31df458971edd78"
+    },
+    "B/T07/reference/MCMC_Test3.m": {
+      "bytes": 1781,
+      "sha256": "0bdf2d047d2be29bee54ee071c9a077f664f6bfe3f78b27bf1244da090057b1f"
+    },
+    "B/T07/reference/MetroHast5.m": {
+      "bytes": 1369,
+      "sha256": "e35268e5ee6206ab2dcfdf81c8721b0a392fadf14ad32d2b387158d63103c8d2"
+    },
+    "B/T07/reference/MetroHast_RandomField.m": {
+      "bytes": 1029,
+      "sha256": "ac7f6b3039e67638b0ba88c090fccb229ea600c960a3f3ce2ee20fcd457fff70"
+    },
+    "B/T07/reference/Random_Field.m": {
+      "bytes": 261,
+      "sha256": "3e185621ef56c2d2e4a3dfa7cf738406633cf704b832a5910560288fb9e5cac8"
+    },
+    "B/T07/reference/Test.m": {
+      "bytes": 242,
+      "sha256": "eaf1a9a52ac68510120a10077359cb4c7b0de22615d74d39bec3226b6c61bd39"
+    },
+    "B/T07/reference/solver_2D.m": {
+      "bytes": 11865,
+      "sha256": "344d7a7351da1d201c7db5d35b3ff9d8857b90e7de7202a51adcfa0e469ed71b"
+    },
+    "B/T08/README.md": {
+      "bytes": 2144,
+      "sha256": "ea071ce1644ebb4b31e4ff34c8eea2f90ecbc067af2b6f7d59cf10f287c14c8a"
+    },
+    "B/T08/data/2D_RS_Real_1_t.npz": {
+      "bytes": 6022,
+      "sha256": "1ca29ef35bf6ade286de4197a8bce983318c53a9424debf556ac7bb68b011ad4"
+    },
+    "B/T08/data/2D_RS_Real_1_t.xlsx": {
+      "bytes": 13993,
+      "sha256": "8729ca1ca186a04c44ed76fd6876db555a05a148aa5966f162f043a85817e78b"
+    },
+    "B/T08/excel2npz.py": {
+      "bytes": 4868,
+      "sha256": "52c25a2dbc8c725539d01108b3abe3bb50a214eb1c65e945a88253e0c901a9e2"
+    },
+    "B/T08/reference/_v_predict.ipynb": {
+      "bytes": 10806,
+      "sha256": "dfdc7e44e11715228c4c1b04b05bb27a516b25dcbc6bc4640c6f244f64479ab1"
+    },
+    "B/T08/reference/deeponet_inverse_tumor.ipynb": {
+      "bytes": 24969,
+      "sha256": "ae7849c043dbdc07b395cf3f37e8d859575d8e80c81081bba681008714f2eb6a"
+    },
+    "B/T08/requirements.txt": {
+      "bytes": 114,
+      "sha256": "4e1529f4dc342d57848c9a00e91caa7942eecd042a470876717f7253135352af"
+    },
+    "KNOWN_ISSUES.md": {
+      "bytes": 1388,
+      "sha256": "7024d0a7e1992171f7195b26709022ba3773e628408cdd7ef36b0a35244d4f13"
+    },
+    "PROVENANCE.json": {
+      "bytes": 114013,
+      "sha256": "53c1380e5aec442f5512bdc8b71637af230e277a9254f8f4eb8c7600f287182a"
+    },
+    "README.md": {
+      "bytes": 3991,
+      "sha256": "a83dbec44389fe78475f93dba87fda44dc40818202e3410767978221bc1e4887"
+    },
+    "TESTS.json": {
+      "bytes": 1650,
+      "sha256": "7eabe9c881e8f17006186257569aaea404d6fa48cbe314aff4398c358358842b"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "bytes": 1072,
+      "sha256": "91756a04f9c3a3b777cf9eaccba50eb66d7640fa1ed839efd56166f25f8f4892"
+    },
+    "docs/RESULT_INDEX.md": {
+      "bytes": 4123,
+      "sha256": "d978d03f726fe1fcc4df1d324424ad0150c69e78135e481874c93166eb0d792c"
+    },
+    "scripts/verify_materials.py": {
+      "bytes": 3533,
+      "sha256": "9318eb449fc7fa347c0ad00296fa7da1f9287598a0fd5b8f99048c05fdf55227"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "T01",
+    "group": "A",
+    "status": "selected_source",
+    "files": [
+      "A/run.py",
+      "A/demo.py",
+      "A/baseline/code/t01/postprocess.py"
+    ]
+  },
+  {
+    "id": "T02",
+    "group": "A",
+    "status": "selected_source",
+    "files": [
+      "A/run.py",
+      "A/supplement/t02_parameter_scan.py"
+    ]
+  },
+  {
+    "id": "T03",
+    "group": "A",
+    "status": "selected_source",
+    "files": [
+      "A/run.py",
+      "A/baseline/code/frozen_sources/t03_core/CMakeLists.txt",
+      "A/baseline/code/frozen_sources/t03_emergence/CMakeLists.txt"
+    ]
+  },
+  {
+    "id": "T04",
+    "group": "A",
+    "status": "selected_source",
+    "files": [
+      "A/run.py",
+      "A/baseline/code/t04/run_t04.py"
+    ]
+  },
+  {
+    "id": "T05",
+    "group": "B",
+    "status": "selected_source",
+    "files": [
+      "B/T05/run_experiment.m",
+      "B/T05/experiment_config.m"
+    ]
+  },
+  {
+    "id": "T06",
+    "group": "B",
+    "status": "selected_source",
+    "files": [
+      "B/T06/run_experiment.m",
+      "B/T06/run_reference.m",
+      "B/T06/experiment_config.m"
+    ]
+  },
+  {
+    "id": "T07",
+    "group": "B",
+    "status": "reference_with_known_limits",
+    "files": [
+      "B/T07/README.md",
+      "B/T07/reference/MCMC_Test1b.m",
+      "B/T07/reference/MCMC_Test3.m"
+    ]
+  },
+  {
+    "id": "T08",
+    "group": "B",
+    "status": "reference_with_known_limits",
+    "files": [
+      "B/T08/README.md",
+      "B/T08/excel2npz.py",
+      "B/T08/data/2D_RS_Real_1_t.npz",
+      "B/T08/data/2D_RS_Real_1_t.xlsx",
+      "B/T08/reference/_v_predict.ipynb",
+      "B/T08/reference/deeponet_inverse_tumor.ipynb"
+    ]
+  }
+]

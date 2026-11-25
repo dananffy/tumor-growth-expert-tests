@@ -1,0 +1,267 @@
+{
+  "T01_radial_64": {
+    "kind": "cpp",
+    "group": "T01",
+    "source": "frozen_sources/t01",
+    "executable": "t01",
+    "grid": 64,
+    "dt": 0.04,
+    "end": 0.2,
+    "parameters": {
+      "lambda": 0.5,
+      "c_B": 10,
+      "G0": 0.2,
+      "R0": 0.5,
+      "n_ctrl": 32,
+      "box": [
+        -1.5,
+        1.5
+      ],
+      "M": 256
+    },
+    "description": "T01 径向传播 64网格"
+  },
+  "T01_radial_128": {
+    "kind": "cpp",
+    "group": "T01",
+    "source": "frozen_sources/t01",
+    "executable": "t01",
+    "grid": 128,
+    "dt": 0.02,
+    "end": 0.2,
+    "parameters": {
+      "lambda": 0.5,
+      "c_B": 10,
+      "G0": 0.2,
+      "R0": 0.5,
+      "n_ctrl": 32,
+      "box": [
+        -1.5,
+        1.5
+      ],
+      "M": 512
+    },
+    "description": "T01 径向传播 128网格"
+  },
+  "T01_radial_256": {
+    "kind": "cpp",
+    "group": "T01",
+    "source": "frozen_sources/t01",
+    "executable": "t01",
+    "grid": 256,
+    "dt": 0.01,
+    "end": 0.2,
+    "parameters": {
+      "lambda": 0.5,
+      "c_B": 10,
+      "G0": 0.2,
+      "R0": 0.5,
+      "n_ctrl": 32,
+      "box": [
+        -1.5,
+        1.5
+      ],
+      "M": 1024
+    },
+    "description": "T01 径向传播 256网格"
+  },
+  "T01_radial_512": {
+    "kind": "cpp",
+    "group": "T01",
+    "source": "frozen_sources/t01",
+    "executable": "t01",
+    "grid": 512,
+    "dt": 0.005,
+    "end": 0.2,
+    "parameters": {
+      "lambda": 0.5,
+      "c_B": 10,
+      "G0": 0.2,
+      "R0": 0.5,
+      "n_ctrl": 32,
+      "box": [
+        -1.5,
+        1.5
+      ],
+      "M": 2048
+    },
+    "description": "T01 径向传播 512网格"
+  },
+  "T03_core_128": {
+    "kind": "cpp",
+    "group": "T03",
+    "source": "frozen_sources/t03_core",
+    "executable": "t03",
+    "mode": "core",
+    "grid": 128,
+    "dt": 0.02,
+    "end": 0.2,
+    "description": "T03 core 128网格 从初值完整运行"
+  },
+  "T03_core_256": {
+    "kind": "cpp",
+    "group": "T03",
+    "source": "frozen_sources/t03_core",
+    "executable": "t03",
+    "mode": "core",
+    "grid": 256,
+    "dt": 0.01,
+    "end": 0.2,
+    "description": "T03 core 256网格 从初值完整运行"
+  },
+  "T03_emergence_256": {
+    "kind": "cpp",
+    "group": "T03",
+    "source": "frozen_sources/t03_emergence",
+    "executable": "t03",
+    "mode": "emergence",
+    "grid": 256,
+    "dt": 0.01,
+    "end": 0.2,
+    "description": "T03 emergence 256网格 从初值完整运行"
+  },
+  "T01_planar_wave": {
+    "kind": "python",
+    "script": "t01/traveling_wave.py",
+    "arguments": [],
+    "description": "T01 两种营养条件的平面行波BVP与传播"
+  },
+  "T02_planar_33": {
+    "kind": "python",
+    "script": "t02/planar_front.py",
+    "arguments": [
+      "--nodes",
+      "33",
+      "--refinement",
+      "1"
+    ],
+    "description": "T02 平面行波稳定失稳 33点"
+  },
+  "T02_planar_49": {
+    "kind": "python",
+    "script": "t02/planar_front.py",
+    "arguments": [
+      "--nodes",
+      "49",
+      "--refinement",
+      "2"
+    ],
+    "description": "T02 平面行波稳定失稳 49点"
+  },
+  "T02_radial_65": {
+    "kind": "python",
+    "script": "t02/free_boundary_spectral.py",
+    "arguments": [
+      "--nodes",
+      "65",
+      "--dr",
+      "0.01"
+    ],
+    "description": "T02 径向稳定失稳补充 65点"
+  },
+  "T02_radial_97": {
+    "kind": "python",
+    "script": "t02/free_boundary_spectral.py",
+    "arguments": [
+      "--nodes",
+      "97",
+      "--dr",
+      "0.005"
+    ],
+    "description": "T02 径向稳定失稳补充 97点"
+  },
+  "T04_basic_dx0.04": {
+    "kind": "python",
+    "script": "t04/run_t04.py",
+    "arguments": [
+      "--mode",
+      "basic",
+      "--dx",
+      "0.04",
+      "--dt",
+      "0.002",
+      "--gammas",
+      "8",
+      "16",
+      "32",
+      "64",
+      "80"
+    ],
+    "description": "T04 basic_dx0.04"
+  },
+  "T04_autophagy_dx0.04": {
+    "kind": "python",
+    "script": "t04/run_t04.py",
+    "arguments": [
+      "--mode",
+      "autophagy",
+      "--dx",
+      "0.04",
+      "--dt",
+      "0.002",
+      "--gammas",
+      "2",
+      "8",
+      "16",
+      "32",
+      "64"
+    ],
+    "description": "T04 autophagy_dx0.04"
+  },
+  "T04_autophagy_dx0.02": {
+    "kind": "python",
+    "script": "t04/run_t04.py",
+    "arguments": [
+      "--mode",
+      "autophagy",
+      "--dx",
+      "0.02",
+      "--dt",
+      "0.001",
+      "--gammas",
+      "16",
+      "32",
+      "64"
+    ],
+    "description": "T04 autophagy_dx0.02"
+  },
+  "T04_autophagy_dx0.01": {
+    "kind": "python",
+    "script": "t04/run_t04.py",
+    "arguments": [
+      "--mode",
+      "autophagy",
+      "--dx",
+      "0.01",
+      "--dt",
+      "0.0005",
+      "--gammas",
+      "64"
+    ],
+    "description": "T04 autophagy_dx0.01"
+  },
+  "T04_independent_regression": {
+    "kind": "python",
+    "script": "t04/validate_transport_reaction.py",
+    "arguments": [],
+    "description": "T04 常营养约化方程与独立BDF核验"
+  },
+  "T03_onset_probe": {
+    "kind": "python",
+    "script": "t03/run_onset_probe.py",
+    "arguments": [],
+    "description": "T03 初生空间误差独立探测",
+    "prepare_working_source": "frozen_sources/t03_emergence"
+  },
+  "T03_core_128_smoke": {
+    "kind": "cpp",
+    "group": "T03",
+    "source": "frozen_sources/t03_core",
+    "executable": "t03",
+    "mode": "core",
+    "grid": 128,
+    "dt": 0.02,
+    "end": 0.02,
+    "description": "T03 环境与复现链核验 只算至0.02 非正式全程配置"
+  }
+}

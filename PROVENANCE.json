@@ -1,0 +1,1972 @@
+{
+  "date": "2026-11-25",
+  "source_files": [
+    {
+      "file": "A/baseline/code/cases.json",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/cases.json",
+      "source_sha256": "c9b427581b1083a71d1c64fbfb057c6b20ea685799044e07412890dab97e070f",
+      "packaged_sha256": "a4be0e525f098206cc6da46a202635db148765aa4b3f112379ef0a51136e12cb"
+    },
+    {
+      "file": "A/baseline/code/frozen_cpp_runner.py",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_cpp_runner.py",
+      "source_sha256": "3db11cc446f0f1fe29f79cde73ba4c57fdd2266c676287105d66797b09362e0c",
+      "packaged_sha256": "5034cca4950730ccfb1411171df510a671993bd4a6f31c3e41b5f888d16abbf4"
+    },
+    {
+      "file": "A/baseline/code/frozen_runner.py",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_runner.py",
+      "source_sha256": "a058cb768346afc68476cf2669217acbfebafb9c0eb6a37baef6b9dc83ac8c4f",
+      "packaged_sha256": "a058cb768346afc68476cf2669217acbfebafb9c0eb6a37baef6b9dc83ac8c4f"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/CMakeLists.txt",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t01/CMakeLists.txt",
+      "source_sha256": "c736762d60046f9e955139e84ca7d94fdb7a9ececa0bf2140bf1e9bbb482ff45",
+      "packaged_sha256": "c736762d60046f9e955139e84ca7d94fdb7a9ececa0bf2140bf1e9bbb482ff45"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/BirkoffInterpolation.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t01/include/BirkoffInterpolation.h",
+      "source_sha256": "f95f8cc2a2cf9542a22a858f3b09daf7977b1dba2d361527dbfd80c04ded3175",
+      "packaged_sha256": "d770ef3a787385501eca8a3e2cc7654f1c17bd298c92df612e74017aa8ac7e8b"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/CartesianGridAndControlPoints.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t01/include/CartesianGridAndControlPoints.h",
+      "source_sha256": "555e5eeafce36bac5d2ab032fbb863ac1242061385c6d02912fa1940d998bc9d",
+      "packaged_sha256": "d709b1f996d56250b508523afb0b1e5e6cd74efaae5fe30932c91222a52bd655"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/CleanFiles.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t01/include/CleanFiles.h",
+      "source_sha256": "18521442ca4c486cf57ee38464609d944874066a8a030cff7815967326b15a74",
+      "packaged_sha256": "06383c0109bc1e9b7627b16bfc13ff730ac7679358e8edb6939c012e208d87b6"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/Const.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t01/include/Const.h",
+      "source_sha256": "26f2d6f79dedd73e62afe26896178f12d8fa80ef6f6f865875247819b7b555be",
+      "packaged_sha256": "a9326ed2188a7d17ef9fbe9763420b5aa3aef888b863843d9f0caf27ff72b5a9"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/CubicSpline.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t01/include/CubicSpline.h",
+      "source_sha256": "917b365514d6b082f502faa6a0a6ba428601872dfd57171e6dbc65dafd093a04",
+      "packaged_sha256": "c0032f6e314c3196c4251bdf4c33f9a1786938b83d35c8af5663325b94c6ffab"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/Domains.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t01/include/Domains.h",
+      "source_sha256": "9ea68d64e00a5ade4eb0a8d53795db535002db407fbb603a9c8efdcdc1eb4fc2",
+      "packaged_sha256": "65aacfe5a056af9a3f8244efabe387d39fbf2a3c221ea5e48a55182e1ce8c0f0"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/FastAlgorithm.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t01/include/FastAlgorithm.h",
+      "source_sha256": "589e0471d6eb2f6842398722dc430521b6fdfb25ada4f97956a56168d0690f15",
+      "packaged_sha256": "307b9975813dfd72f5d8c15cddbbb9476646f25ea54531869768c65a261427ef"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/FreeBoundaryModel.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t01/include/FreeBoundaryModel.h",
+      "source_sha256": "f1657d7cb2b3a28eee75ece9c70765342865c23e29cbb5d6172690d33b82c6ec",
+      "packaged_sha256": "c7d07ad24bca11db59bf4e1ee645863c93b26bdfc091041dd7881f08f49d3554"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/Householder.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t01/include/Householder.h",
+      "source_sha256": "b24fefe05cbdf9b9aa79e00ed7439915082e13fcbbe9451019f234ec91fe8023",
+      "packaged_sha256": "a74993729703e6ca0f493c5c84ca9a467ea56801912b872fce86a8fe7418db42"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/LinearAlgebra.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t01/include/LinearAlgebra.h",
+      "source_sha256": "96342875fb5f7ed63de76d497f1428bb0eb73ba0fb9631d360bc52530675495c",
+      "packaged_sha256": "fbb09256e7f600ad51195e4e63341d5c142b4de54ab6a4e986d5e6052e46597e"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/LU.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t01/include/LU.h",
+      "source_sha256": "36ba18be7ca798a829136aa15c1de9112db5d849b514fcc8101a6bc29f877fc9",
+      "packaged_sha256": "9f1280b67af1a891a7a76ff674c1557f7917ec1ca9cfc69f40cf56cd51dd2ed7"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/MHelmholtzSolver.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t01/include/MHelmholtzSolver.h",
+      "source_sha256": "8d3a83fa834a2882d3335d1ad00ad1caaab674e338bb9b4b98cc705d73f6ac95",
+      "packaged_sha256": "c9cc5ae0ffaa59387800074229294f2a33c476aa520f5289e5be83dc9da5b540"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/Norm.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t01/include/Norm.h",
+      "source_sha256": "fd70f2eb3aca2613ffdd472e9052f4855ef8c469256139be3ed1f5fb0ce69a55",
+      "packaged_sha256": "8d3f18f0b97d1164a06544485839b88c94e299b063c0fe5a15b5f231ed040a70"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/NormalDerivative.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t01/include/NormalDerivative.h",
+      "source_sha256": "c8af0f7e6084a26658b170975b35fc3446c6da32adb27538aa76aae06c1074dc",
+      "packaged_sha256": "5515b4650e9ac12374b98027b6d3d34eb412ea7b3c22e66bca582f519515afa6"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/PoissonSolver.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t01/include/PoissonSolver.h",
+      "source_sha256": "e04c6a21451b02d28a6bdfda091e77a2c3830472f7e752c6c8f99d0bcb9d0b52",
+      "packaged_sha256": "b5429df0bf52806f63c74d830f27b12564a6bb2c5cb1fc9c85e56f5f43072b0b"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/Product.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t01/include/Product.h",
+      "source_sha256": "059e95ca5a8306d47d02a33e94f005e63b675f0121ae71633801335a5d6e2ecb",
+      "packaged_sha256": "66601e5e7ec4d1d560312744532af6712611e4c084b1de501fb85eb445ae6e3b"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/QR.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t01/include/QR.h",
+      "source_sha256": "fb5b52630a824c56df0db14e60429468b27ab6100b0edefb0710ad99fba60e20",
+      "packaged_sha256": "c0897097f12b96a977b12808b4f1eb08943f0fd25473a93d3ed518696f2ed45c"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/TangentialDerivatives.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t01/include/TangentialDerivatives.h",
+      "source_sha256": "d99ebdcad425df5010e5a0321bebc15209ee2b56bbe682692c4709e8c169fc87",
+      "packaged_sha256": "965bd9f50564191e1863bc5fc24045794b8b79369db6d628fd5565e4d6910193"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/ThomasAlgorithm.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t01/include/ThomasAlgorithm.h",
+      "source_sha256": "07d9ac6c4eb2761617e037322b56adcaed518c224264b9a0f6b54e23d2528982",
+      "packaged_sha256": "56b341fe2a3a12f22d4a567754630932520476ef3a0701c657c4b2da285589ba"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/src/BirkoffInterpolation.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t01/src/BirkoffInterpolation.cpp",
+      "source_sha256": "995a7ad51cf4ca85a6f178cfa2b6df6f144314966bb91a2dd7895a8cdef820ee",
+      "packaged_sha256": "676a6d2a55e4e5971326d66f32fd9e9e6f78568827663a075445a9544a4f2f2f"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/src/CartesianGridAndControlPoints.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t01/src/CartesianGridAndControlPoints.cpp",
+      "source_sha256": "81e47eb3143e624b9d8df884cc573b24d5a43123730f2f0db7b932c32f0e5caa",
+      "packaged_sha256": "067c3572c67f45a23448a0a600bc2633d33600b22b6752f36e591dd69353e9d5"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/src/CleanFiles.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t01/src/CleanFiles.cpp",
+      "source_sha256": "1773ca8dfc67aac612fc22815b878582df68efdfe192faed98e39cb814204ab1",
+      "packaged_sha256": "1773ca8dfc67aac612fc22815b878582df68efdfe192faed98e39cb814204ab1"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/src/FastAlgorithm.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t01/src/FastAlgorithm.cpp",
+      "source_sha256": "962a5402a31cdf549c5aa5375e27d15b2e7d72ab90129c7fd2b4ebab608f7a76",
+      "packaged_sha256": "a05d0959c30c1758a25091caeac0d38e8471709fc7b206d69abcb50683440872"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/src/FreeBoundaryModel.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t01/src/FreeBoundaryModel.cpp",
+      "source_sha256": "8109777c368b503446da322106e5012dfff053aa73f88f762dbe1bfb678a221e",
+      "packaged_sha256": "8109777c368b503446da322106e5012dfff053aa73f88f762dbe1bfb678a221e"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/src/LinearAlgebra.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t01/src/LinearAlgebra.cpp",
+      "source_sha256": "a9884817b9127244546cacd755e42af8c643ea88eea3d883f2cc05f36f4c55bb",
+      "packaged_sha256": "a9884817b9127244546cacd755e42af8c643ea88eea3d883f2cc05f36f4c55bb"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/src/MHelmholtzSolver.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t01/src/MHelmholtzSolver.cpp",
+      "source_sha256": "6c0b9ecdee5ee485fcc9f6e239022ac199b0306674ce2397198e76bbfeef28aa",
+      "packaged_sha256": "304f365f1c11eea7ba2723514a2cf71ce2b466185477774c2e782c26f2ae0e69"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/src/NormalDerivative.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t01/src/NormalDerivative.cpp",
+      "source_sha256": "de527568a541018ce828c72554f4d458ac5fad62d5219bc62ed102d92bfd1d47",
+      "packaged_sha256": "04aff01acc56817091809cfec1c751b3a1be2e555eaaaa87230b58e1da76a1b0"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/src/PoissonSolver.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t01/src/PoissonSolver.cpp",
+      "source_sha256": "4838fb940080f2cbd968859d10f73bc53e6461b87bbc83289cc56a8b13531d04",
+      "packaged_sha256": "df6f16764629eed7415272a43e95bdd3c082a3f2bb8099204145cd558a1b8419"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/src/TangentialDerivatives.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t01/src/TangentialDerivatives.cpp",
+      "source_sha256": "0502a178b3bcafbc912355d8da36da85c92f58991e4d67b51ee6f8d3412a899e",
+      "packaged_sha256": "252438e517e8a3703aa6a13bb1c0f4af6fcd9b6ea84454031044ef3458d10326"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/src/test.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t01/src/test.cpp",
+      "source_sha256": "b52e822004cb461ba10d5a5635683e98dc74999f37a28374fd5187fa430603ed",
+      "packaged_sha256": "b52e822004cb461ba10d5a5635683e98dc74999f37a28374fd5187fa430603ed"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/CMakeLists.txt",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/CMakeLists.txt",
+      "source_sha256": "cdb65b23da3fe3f04ad99ce46c2836f875ca7acc2a301761776d464f9799297d",
+      "packaged_sha256": "cdb65b23da3fe3f04ad99ce46c2836f875ca7acc2a301761776d464f9799297d"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/BirkoffInterpolation.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/include/BirkoffInterpolation.h",
+      "source_sha256": "f95f8cc2a2cf9542a22a858f3b09daf7977b1dba2d361527dbfd80c04ded3175",
+      "packaged_sha256": "d770ef3a787385501eca8a3e2cc7654f1c17bd298c92df612e74017aa8ac7e8b"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/BoundaryInclusionCheck.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/include/BoundaryInclusionCheck.h",
+      "source_sha256": "19d4e9f22bab561151e6fe7654aea5f5a1c71bb30cf66d0e5b6550e994a586fb",
+      "packaged_sha256": "d93e7a16f5ac433e1dbf387ac0630d1305042b6ddf2a3656ddb952a6638aa8f8"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/CartesianGridAndControlPoints.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/include/CartesianGridAndControlPoints.h",
+      "source_sha256": "1594c3c2528c0500d6a3e3821d05d033454dd61297a84f757f985b7d5449a602",
+      "packaged_sha256": "0e98fc8cb18ec22c0cf0c7d48ddabca0f5774b9158ecd2c8254c6904ccd43f97"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/CleanFiles.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/include/CleanFiles.h",
+      "source_sha256": "18521442ca4c486cf57ee38464609d944874066a8a030cff7815967326b15a74",
+      "packaged_sha256": "06383c0109bc1e9b7627b16bfc13ff730ac7679358e8edb6939c012e208d87b6"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/Const.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/include/Const.h",
+      "source_sha256": "26f2d6f79dedd73e62afe26896178f12d8fa80ef6f6f865875247819b7b555be",
+      "packaged_sha256": "a9326ed2188a7d17ef9fbe9763420b5aa3aef888b863843d9f0caf27ff72b5a9"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/CubicSpline.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/include/CubicSpline.h",
+      "source_sha256": "e89f2432730a71114cabb8562bd6bb1a0606f807d0d894a27b5bca726768c855",
+      "packaged_sha256": "e89f2432730a71114cabb8562bd6bb1a0606f807d0d894a27b5bca726768c855"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/Domains.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/include/Domains.h",
+      "source_sha256": "3d71c591c103a85188716cc1c03ad2385bb2d09ff0564aab21065579595a3573",
+      "packaged_sha256": "e105a89f45c2ebb41bf92bfaf982334e3dfd496200e0c2de11fe45eecfc5fc90"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/ExtractBoundaryData.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/include/ExtractBoundaryData.h",
+      "source_sha256": "1b37ab719371227e33df1523033a213dcb0201b4a56c5c03de5af0dc11953da9",
+      "packaged_sha256": "67414cb75b3b45824a25828d3295be33716cce8b93924f458866cb8d4917bf5c"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/ExtractBoundaryPoints.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/include/ExtractBoundaryPoints.h",
+      "source_sha256": "545c6e8f08f4495707cce9b1b3eb5fb502cf5c1db08a1317426b1a0326ef4e13",
+      "packaged_sha256": "64ca913d4ae9c6b636242cbaaf29d110be4ae98b9aae622eead0ad9d88e42918"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/FastAlgorithm.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/include/FastAlgorithm.h",
+      "source_sha256": "b92c50f30f5d93bbe7741335d67992d028743760a721b0df4e014ca4f90017b0",
+      "packaged_sha256": "a8d1725a0e0fb5311f8b23d5c0adfc583b427fc5992d78d04264a7d7a8fb66b0"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/FreeBoundaryModel.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/include/FreeBoundaryModel.h",
+      "source_sha256": "fcca59badd3dc01bcbaf29d0c1cea6c17817f6988bf41291c12912d127a79040",
+      "packaged_sha256": "214e65f6d6e6d8f30330980ebb5eb23e2967e35019210aaf7d9bcf8ccf07d40d"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/GMRES.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/include/GMRES.h",
+      "source_sha256": "52e656a2306b47fd0f2518c57f315a27b3e30341429edc6f24be8a559e4c7e88",
+      "packaged_sha256": "b2c8dd98fc4e4b296842b2223e1fcff57ec3bba4fca07719fa981fab2cbd5fcc"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/Householder.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/include/Householder.h",
+      "source_sha256": "b24fefe05cbdf9b9aa79e00ed7439915082e13fcbbe9451019f234ec91fe8023",
+      "packaged_sha256": "a74993729703e6ca0f493c5c84ca9a467ea56801912b872fce86a8fe7418db42"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/InterfaceBvpSolver.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/include/InterfaceBvpSolver.h",
+      "source_sha256": "12ee0b9db44be3b0e4c80eada2bc77c3c81fcb0b5a61f0e7b6ef2dd79255b043",
+      "packaged_sha256": "4c7bd448ef64eb8276ec802b1b4f1cf433d0f99fc3988ede01d8900a32511356"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/LinearAlgebra.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/include/LinearAlgebra.h",
+      "source_sha256": "5e8092f9c815c79159b5b538fbcfab2249a344f6fd23ba71e9d65e9900ae1181",
+      "packaged_sha256": "edbb3d0cf913765721172dc03e43b0b93568f6701113f2ec5734a85cb1f0bc18"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/LU.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/include/LU.h",
+      "source_sha256": "36ba18be7ca798a829136aa15c1de9112db5d849b514fcc8101a6bc29f877fc9",
+      "packaged_sha256": "9f1280b67af1a891a7a76ff674c1557f7917ec1ca9cfc69f40cf56cd51dd2ed7"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/Norm.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/include/Norm.h",
+      "source_sha256": "fd70f2eb3aca2613ffdd472e9052f4855ef8c469256139be3ed1f5fb0ce69a55",
+      "packaged_sha256": "8d3f18f0b97d1164a06544485839b88c94e299b063c0fe5a15b5f231ed040a70"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/NormalDerivative.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/include/NormalDerivative.h",
+      "source_sha256": "c8af0f7e6084a26658b170975b35fc3446c6da32adb27538aa76aae06c1074dc",
+      "packaged_sha256": "5515b4650e9ac12374b98027b6d3d34eb412ea7b3c22e66bca582f519515afa6"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/PrimalDualAlgorithm.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/include/PrimalDualAlgorithm.h",
+      "source_sha256": "6cd696aef400fbd3196624da59e56ffc0c2611ac88a597b81bc1a4f8fd0c5db4",
+      "packaged_sha256": "9e1146c6e33c8e0b279e4b23ead3cbeb5d70bef2014530798455da31e87bf36a"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/Product.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/include/Product.h",
+      "source_sha256": "059e95ca5a8306d47d02a33e94f005e63b675f0121ae71633801335a5d6e2ecb",
+      "packaged_sha256": "66601e5e7ec4d1d560312744532af6712611e4c084b1de501fb85eb445ae6e3b"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/QR.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/include/QR.h",
+      "source_sha256": "fb5b52630a824c56df0db14e60429468b27ab6100b0edefb0710ad99fba60e20",
+      "packaged_sha256": "c0897097f12b96a977b12808b4f1eb08943f0fd25473a93d3ed518696f2ed45c"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/TangentialDerivatives.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/include/TangentialDerivatives.h",
+      "source_sha256": "d99ebdcad425df5010e5a0321bebc15209ee2b56bbe682692c4709e8c169fc87",
+      "packaged_sha256": "965bd9f50564191e1863bc5fc24045794b8b79369db6d628fd5565e4d6910193"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/ThomasAlgorithm.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/include/ThomasAlgorithm.h",
+      "source_sha256": "07d9ac6c4eb2761617e037322b56adcaed518c224264b9a0f6b54e23d2528982",
+      "packaged_sha256": "56b341fe2a3a12f22d4a567754630932520476ef3a0701c657c4b2da285589ba"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/src/BirkoffInterpolation.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/src/BirkoffInterpolation.cpp",
+      "source_sha256": "995a7ad51cf4ca85a6f178cfa2b6df6f144314966bb91a2dd7895a8cdef820ee",
+      "packaged_sha256": "676a6d2a55e4e5971326d66f32fd9e9e6f78568827663a075445a9544a4f2f2f"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/src/BoundaryInclusionCheck.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/src/BoundaryInclusionCheck.cpp",
+      "source_sha256": "c18f480ec1d5237c8fd7ed84e78c6e05baa471c75107fe542c0a5e1d2acf0bb8",
+      "packaged_sha256": "2225f7f4eb17d8462850d8619e84adc920027161103b70d9c85e569947a56fbe"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/src/CartesianGridAndControlPoints.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/src/CartesianGridAndControlPoints.cpp",
+      "source_sha256": "538f3c73513f613270430f0bb69469fa8e9fc1925c3241f6a41474b6db0ba91d",
+      "packaged_sha256": "d60f46ede1eec4a3c4baccbd2e244052e11ef4c9d67880a4f7016fdf899895ea"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/src/CleanFiles.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/src/CleanFiles.cpp",
+      "source_sha256": "1e14d4573cf9ba4b5d9d631e4e380facbf9eebf944dda6c11654677368148fd9",
+      "packaged_sha256": "1e14d4573cf9ba4b5d9d631e4e380facbf9eebf944dda6c11654677368148fd9"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/src/ExtractBoundaryData.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/src/ExtractBoundaryData.cpp",
+      "source_sha256": "2cb67162281c37ae13ca7577779eac484aa6b7fa8944195e7d396919ade17e01",
+      "packaged_sha256": "48b08c703dfedea627c7ca50f0b68989a52bcf7fc91788738dece663c788fc89"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/src/ExtractBoundaryPoints.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/src/ExtractBoundaryPoints.cpp",
+      "source_sha256": "6733f031ac473e86025581c8661a0f5688cf583a07dfb63d766633540a556600",
+      "packaged_sha256": "006d1376c56871a82a822f50274771d93a0e51aa67e8d77c73c475c3239c43fd"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/src/FastAlgorithm.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/src/FastAlgorithm.cpp",
+      "source_sha256": "b53c49c03dea6e1bbb7fceb65fa64774710421a63d19d6e1d4dfae7723668c29",
+      "packaged_sha256": "7df0567c93caffc902d09f93f70b298ee831994977f9a34640704b57d2092b5e"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/src/FreeBoundaryModel.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/src/FreeBoundaryModel.cpp",
+      "source_sha256": "d1ba946a6cd7448d5952ae793e2719ad76f34fbc49266a8858a8c8d2c264a93f",
+      "packaged_sha256": "d1ba946a6cd7448d5952ae793e2719ad76f34fbc49266a8858a8c8d2c264a93f"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/src/GMRES.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/src/GMRES.cpp",
+      "source_sha256": "0ae3f6e29a991bb154f35c72fcc943f21c6ec6d44d55f4bce26694085124b80e",
+      "packaged_sha256": "887370191baac56db646cc5b198823a3a92b8155003b440700afe5ca1e4558e5"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/src/InterfaceBvpSolver.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/src/InterfaceBvpSolver.cpp",
+      "source_sha256": "a3ce59983854a5f1f97d8dbc91ea052e370453b65d56d95b652c27834206ba6a",
+      "packaged_sha256": "b1c527abffe872d904de62be96193817010b8f7531493cd17f20848ffe315761"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/src/LinearAlgebra.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/src/LinearAlgebra.cpp",
+      "source_sha256": "a877420d176d175cc48039d21c50cae472e5a9d3ef32d92b69690afe7302dea0",
+      "packaged_sha256": "a877420d176d175cc48039d21c50cae472e5a9d3ef32d92b69690afe7302dea0"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/src/NormalDerivative.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/src/NormalDerivative.cpp",
+      "source_sha256": "4513e141a8889ca448f231c01f245b3a9966a6a1829770ea19546ded04244d66",
+      "packaged_sha256": "3c6495d70c7bdb89e7d43a52a3892e67d527be63b8c3b9a6792281bd092a404b"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/src/PrimalDualAlgorithm.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/src/PrimalDualAlgorithm.cpp",
+      "source_sha256": "7a360f130c57023b05161a455b78b34a70a6ac95cf3e24685b93c4382abd0bcd",
+      "packaged_sha256": "496d83ce31eb2ca8b29a1620eb94a8e314905ba74804c7acb2dd0219ac764259"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/src/TangentialDerivatives.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/src/TangentialDerivatives.cpp",
+      "source_sha256": "0502a178b3bcafbc912355d8da36da85c92f58991e4d67b51ee6f8d3412a899e",
+      "packaged_sha256": "252438e517e8a3703aa6a13bb1c0f4af6fcd9b6ea84454031044ef3458d10326"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/src/test.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_core/src/test.cpp",
+      "source_sha256": "5bb114f43b32232754e00011a608f6ee3558cd1595dbb3cc3178f9ce691699aa",
+      "packaged_sha256": "5bb114f43b32232754e00011a608f6ee3558cd1595dbb3cc3178f9ce691699aa"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/CMakeLists.txt",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/CMakeLists.txt",
+      "source_sha256": "adb5a85bd95a80750daf850e727f2dc60e9883eded48e72173a3597b4907f78c",
+      "packaged_sha256": "adb5a85bd95a80750daf850e727f2dc60e9883eded48e72173a3597b4907f78c"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/BirkoffInterpolation.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/include/BirkoffInterpolation.h",
+      "source_sha256": "f95f8cc2a2cf9542a22a858f3b09daf7977b1dba2d361527dbfd80c04ded3175",
+      "packaged_sha256": "d770ef3a787385501eca8a3e2cc7654f1c17bd298c92df612e74017aa8ac7e8b"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/BoundaryInclusionCheck.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/include/BoundaryInclusionCheck.h",
+      "source_sha256": "19d4e9f22bab561151e6fe7654aea5f5a1c71bb30cf66d0e5b6550e994a586fb",
+      "packaged_sha256": "d93e7a16f5ac433e1dbf387ac0630d1305042b6ddf2a3656ddb952a6638aa8f8"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/CartesianGridAndControlPoints.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/include/CartesianGridAndControlPoints.h",
+      "source_sha256": "1594c3c2528c0500d6a3e3821d05d033454dd61297a84f757f985b7d5449a602",
+      "packaged_sha256": "0e98fc8cb18ec22c0cf0c7d48ddabca0f5774b9158ecd2c8254c6904ccd43f97"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/CartesianGridAndControlPoints0.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/include/CartesianGridAndControlPoints0.h",
+      "source_sha256": "2f54d425f046c98b7b19c8ce29809a47d6c78079014517448d4ee04c04b03ebd",
+      "packaged_sha256": "c7eaf49271f9b6e2cda43f3a7d7adc3e3e58d1ace2723eeef6d3cac66f80054c"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/CleanFiles.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/include/CleanFiles.h",
+      "source_sha256": "18521442ca4c486cf57ee38464609d944874066a8a030cff7815967326b15a74",
+      "packaged_sha256": "06383c0109bc1e9b7627b16bfc13ff730ac7679358e8edb6939c012e208d87b6"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/Config.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/include/Config.h",
+      "source_sha256": "cb0cac161f734eeab6f66c122841d08f061728f5b8aca8e30c54e484fda2a246",
+      "packaged_sha256": "79841e72fe5a7ef6c9f6e484cd04a604d09f8d99f19c13691359fbf7f9ff2f45"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/Const.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/include/Const.h",
+      "source_sha256": "26f2d6f79dedd73e62afe26896178f12d8fa80ef6f6f865875247819b7b555be",
+      "packaged_sha256": "a9326ed2188a7d17ef9fbe9763420b5aa3aef888b863843d9f0caf27ff72b5a9"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/CubicSpline.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/include/CubicSpline.h",
+      "source_sha256": "e89f2432730a71114cabb8562bd6bb1a0606f807d0d894a27b5bca726768c855",
+      "packaged_sha256": "e89f2432730a71114cabb8562bd6bb1a0606f807d0d894a27b5bca726768c855"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/Domains.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/include/Domains.h",
+      "source_sha256": "3d71c591c103a85188716cc1c03ad2385bb2d09ff0564aab21065579595a3573",
+      "packaged_sha256": "e105a89f45c2ebb41bf92bfaf982334e3dfd496200e0c2de11fe45eecfc5fc90"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/ExtractBoundaryData.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/include/ExtractBoundaryData.h",
+      "source_sha256": "1b37ab719371227e33df1523033a213dcb0201b4a56c5c03de5af0dc11953da9",
+      "packaged_sha256": "67414cb75b3b45824a25828d3295be33716cce8b93924f458866cb8d4917bf5c"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/ExtractBoundaryPoints.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/include/ExtractBoundaryPoints.h",
+      "source_sha256": "545c6e8f08f4495707cce9b1b3eb5fb502cf5c1db08a1317426b1a0326ef4e13",
+      "packaged_sha256": "64ca913d4ae9c6b636242cbaaf29d110be4ae98b9aae622eead0ad9d88e42918"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/FastAlgorithm.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/include/FastAlgorithm.h",
+      "source_sha256": "b92c50f30f5d93bbe7741335d67992d028743760a721b0df4e014ca4f90017b0",
+      "packaged_sha256": "a8d1725a0e0fb5311f8b23d5c0adfc583b427fc5992d78d04264a7d7a8fb66b0"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/FreeBoundaryModel.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/include/FreeBoundaryModel.h",
+      "source_sha256": "88abf1f96c5c164995d56aa7aaf9f19429c8f18f20270c833d1d42ce465e4e46",
+      "packaged_sha256": "f06895ba6029db9ab92016c032f2c8b0bd6ee089860773ccc3b2bc228ae0db79"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/GMRES.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/include/GMRES.h",
+      "source_sha256": "52e656a2306b47fd0f2518c57f315a27b3e30341429edc6f24be8a559e4c7e88",
+      "packaged_sha256": "b2c8dd98fc4e4b296842b2223e1fcff57ec3bba4fca07719fa981fab2cbd5fcc"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/Householder.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/include/Householder.h",
+      "source_sha256": "b24fefe05cbdf9b9aa79e00ed7439915082e13fcbbe9451019f234ec91fe8023",
+      "packaged_sha256": "a74993729703e6ca0f493c5c84ca9a467ea56801912b872fce86a8fe7418db42"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/InterfaceBvpSolver.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/include/InterfaceBvpSolver.h",
+      "source_sha256": "25d95cbe3676554d24fde0d823fbbd2deb06d9f928c5e0a659b2e25710d3daa2",
+      "packaged_sha256": "38d005bc3587b0d80c3b6d5c42740cfd1e36cf31d991f87572aa62b69773b56b"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/LinearAlgebra.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/include/LinearAlgebra.h",
+      "source_sha256": "5e8092f9c815c79159b5b538fbcfab2249a344f6fd23ba71e9d65e9900ae1181",
+      "packaged_sha256": "edbb3d0cf913765721172dc03e43b0b93568f6701113f2ec5734a85cb1f0bc18"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/LU.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/include/LU.h",
+      "source_sha256": "36ba18be7ca798a829136aa15c1de9112db5d849b514fcc8101a6bc29f877fc9",
+      "packaged_sha256": "9f1280b67af1a891a7a76ff674c1557f7917ec1ca9cfc69f40cf56cd51dd2ed7"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/MHelmholtzSolver.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/include/MHelmholtzSolver.h",
+      "source_sha256": "31c37412c695fa4f36af120ae9033105f7fd3a7853a859017eabe24242aea2f9",
+      "packaged_sha256": "388a7c25bd8a5573ea3b4224768813da7a1cffe27ab415cdfff4e9473e9ff93d"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/Norm.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/include/Norm.h",
+      "source_sha256": "fd70f2eb3aca2613ffdd472e9052f4855ef8c469256139be3ed1f5fb0ce69a55",
+      "packaged_sha256": "8d3f18f0b97d1164a06544485839b88c94e299b063c0fe5a15b5f231ed040a70"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/NormalDerivative.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/include/NormalDerivative.h",
+      "source_sha256": "c4e3cf234ecec7dfa7b5df171cf81071bca238628aeea1333e07ea993fb1e7c8",
+      "packaged_sha256": "54b59b78e016e06f2aad6e04ee8cd1ca9e64464b91a7b16a19499cc58e09d833"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/PoissonSolver.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/include/PoissonSolver.h",
+      "source_sha256": "c4798940630e51283ee25fc3e470faabc8c7081f8b85f2e108978c40a886d23b",
+      "packaged_sha256": "1c094e9a85dd3d29ea6866c7a4f5c88383005edfa5d8862bf85785364e995247"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/PrimalDualAlgorithm.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/include/PrimalDualAlgorithm.h",
+      "source_sha256": "6cd696aef400fbd3196624da59e56ffc0c2611ac88a597b81bc1a4f8fd0c5db4",
+      "packaged_sha256": "9e1146c6e33c8e0b279e4b23ead3cbeb5d70bef2014530798455da31e87bf36a"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/Product.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/include/Product.h",
+      "source_sha256": "059e95ca5a8306d47d02a33e94f005e63b675f0121ae71633801335a5d6e2ecb",
+      "packaged_sha256": "66601e5e7ec4d1d560312744532af6712611e4c084b1de501fb85eb445ae6e3b"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/QR.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/include/QR.h",
+      "source_sha256": "fb5b52630a824c56df0db14e60429468b27ab6100b0edefb0710ad99fba60e20",
+      "packaged_sha256": "c0897097f12b96a977b12808b4f1eb08943f0fd25473a93d3ed518696f2ed45c"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/TangentialDerivatives.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/include/TangentialDerivatives.h",
+      "source_sha256": "d99ebdcad425df5010e5a0321bebc15209ee2b56bbe682692c4709e8c169fc87",
+      "packaged_sha256": "965bd9f50564191e1863bc5fc24045794b8b79369db6d628fd5565e4d6910193"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/ThomasAlgorithm.h",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/include/ThomasAlgorithm.h",
+      "source_sha256": "07d9ac6c4eb2761617e037322b56adcaed518c224264b9a0f6b54e23d2528982",
+      "packaged_sha256": "56b341fe2a3a12f22d4a567754630932520476ef3a0701c657c4b2da285589ba"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/BirkoffInterpolation.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/src/BirkoffInterpolation.cpp",
+      "source_sha256": "995a7ad51cf4ca85a6f178cfa2b6df6f144314966bb91a2dd7895a8cdef820ee",
+      "packaged_sha256": "676a6d2a55e4e5971326d66f32fd9e9e6f78568827663a075445a9544a4f2f2f"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/BoundaryInclusionCheck.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/src/BoundaryInclusionCheck.cpp",
+      "source_sha256": "c18f480ec1d5237c8fd7ed84e78c6e05baa471c75107fe542c0a5e1d2acf0bb8",
+      "packaged_sha256": "2225f7f4eb17d8462850d8619e84adc920027161103b70d9c85e569947a56fbe"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/CartesianGridAndControlPoints.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/src/CartesianGridAndControlPoints.cpp",
+      "source_sha256": "538f3c73513f613270430f0bb69469fa8e9fc1925c3241f6a41474b6db0ba91d",
+      "packaged_sha256": "d60f46ede1eec4a3c4baccbd2e244052e11ef4c9d67880a4f7016fdf899895ea"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/CartesianGridAndControlPoints0.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/src/CartesianGridAndControlPoints0.cpp",
+      "source_sha256": "d8d7805e8979c49dcf0f2f5e986757983fc7f687c7090c2ef97dd978dbb84e58",
+      "packaged_sha256": "0fae7c6ece7c43c80e62251874d5ecaeba965ede69db111532d5996db42b7207"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/CleanFiles.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/src/CleanFiles.cpp",
+      "source_sha256": "1e14d4573cf9ba4b5d9d631e4e380facbf9eebf944dda6c11654677368148fd9",
+      "packaged_sha256": "1e14d4573cf9ba4b5d9d631e4e380facbf9eebf944dda6c11654677368148fd9"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/Config.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/src/Config.cpp",
+      "source_sha256": "4fe2bd1f92cb0b54c3461eecf44cc62eee227ff98bda7491d069be969fd0caa0",
+      "packaged_sha256": "39ef55bf58630182a8ee8793871576a64691b9d70814b016d99b7aa104211cd9"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/ExtractBoundaryData.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/src/ExtractBoundaryData.cpp",
+      "source_sha256": "2cb67162281c37ae13ca7577779eac484aa6b7fa8944195e7d396919ade17e01",
+      "packaged_sha256": "48b08c703dfedea627c7ca50f0b68989a52bcf7fc91788738dece663c788fc89"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/ExtractBoundaryPoints.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/src/ExtractBoundaryPoints.cpp",
+      "source_sha256": "132e1e2d9ef0aad806593d8ee0e71461f053fad4933d92b93b40a5e12264de4d",
+      "packaged_sha256": "05ea4a5277fb2beb99666d0c4df8806d3b799d598af081bcbcbd9b933412024b"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/FastAlgorithm.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/src/FastAlgorithm.cpp",
+      "source_sha256": "b53c49c03dea6e1bbb7fceb65fa64774710421a63d19d6e1d4dfae7723668c29",
+      "packaged_sha256": "7df0567c93caffc902d09f93f70b298ee831994977f9a34640704b57d2092b5e"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/FreeBoundaryModel.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/src/FreeBoundaryModel.cpp",
+      "source_sha256": "ee769140c99f2c43dd8e0604aae5f568b452c85e86fac70f4fab0c6df5f57381",
+      "packaged_sha256": "ee769140c99f2c43dd8e0604aae5f568b452c85e86fac70f4fab0c6df5f57381"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/GMRES.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/src/GMRES.cpp",
+      "source_sha256": "0ae3f6e29a991bb154f35c72fcc943f21c6ec6d44d55f4bce26694085124b80e",
+      "packaged_sha256": "887370191baac56db646cc5b198823a3a92b8155003b440700afe5ca1e4558e5"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/InterfaceBvpSolver.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/src/InterfaceBvpSolver.cpp",
+      "source_sha256": "f9dd18470931b6d31fe1f6bc4b7cb4143cd8b682e5e5e88ad726eb3b3ddd25e2",
+      "packaged_sha256": "dd247a29a2f0cffc5ee7a0135501ea45d75329b541bf966a76f0c5a24931b9b9"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/LinearAlgebra.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/src/LinearAlgebra.cpp",
+      "source_sha256": "f3df6cdfd66717592b0abaf3a9b0b85a4db181ea73afb1a5d82ce9f6ee6a5db6",
+      "packaged_sha256": "f3df6cdfd66717592b0abaf3a9b0b85a4db181ea73afb1a5d82ce9f6ee6a5db6"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/MHelmholtzSolver.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/src/MHelmholtzSolver.cpp",
+      "source_sha256": "58bec45a98ec98d801501b97170e9031ee8d6b8347bc6b06c9a61ddbeb6b797e",
+      "packaged_sha256": "0a774bc97daa0b04b57b23464e6a4f456a34cf1818fca744c36f4a296e8797fc"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/NormalDerivative.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/src/NormalDerivative.cpp",
+      "source_sha256": "132b0571bfd398d6fccade6e0ba89af6a12964c92c990e02c4ee7d36dd843ede",
+      "packaged_sha256": "621ad878a0bb6ceea346ce4ce378656d911cc42844360092677de2b41f2578fb"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/PoissonSolver.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/src/PoissonSolver.cpp",
+      "source_sha256": "4ea4e6e875c5ddd938e8164fa77f01ecf4097915882c199e2732e7c02d4a129e",
+      "packaged_sha256": "7abacfcbf6c7f88f8273c1439649523da0068a4a2b942bcf08f48126e959f7aa"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/PrimalDualAlgorithm.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/src/PrimalDualAlgorithm.cpp",
+      "source_sha256": "56b298d1a8da6f1ff950cadb07cc6f49a30839aa7ef457b51c564b75f4134107",
+      "packaged_sha256": "92a65003b2fe6f9cf2b8cc2a17e3016a780af4b2a73805064c4da5cea28b8c83"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/TangentialDerivatives.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/src/TangentialDerivatives.cpp",
+      "source_sha256": "0502a178b3bcafbc912355d8da36da85c92f58991e4d67b51ee6f8d3412a899e",
+      "packaged_sha256": "252438e517e8a3703aa6a13bb1c0f4af6fcd9b6ea84454031044ef3458d10326"
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/test.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/frozen_sources/t03_emergence/src/test.cpp",
+      "source_sha256": "02b2f4aa9faa5dc1470b95f9544cb8a4bf670b12df6d705fa3d38f6c6a7b2864",
+      "packaged_sha256": "02b2f4aa9faa5dc1470b95f9544cb8a4bf670b12df6d705fa3d38f6c6a7b2864"
+    },
+    {
+      "file": "A/baseline/code/requirements.lock.txt",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/requirements.lock.txt",
+      "source_sha256": "2f4e65cb4adf7ad8780c3a71bf6c7730752dc815e790e399f51301a8f93e5d49",
+      "packaged_sha256": "ccbd8229d222a361c760f829c0e3e62beb09d9afe392e7ce5bfd1f46a96aa368"
+    },
+    {
+      "file": "A/baseline/code/t01/postprocess.py",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/t01/postprocess.py",
+      "source_sha256": "75d832af0ee3db36c1e64f6efffa49d6376f52f82e6b9e057d31ef5eadb05d5d",
+      "packaged_sha256": "75d832af0ee3db36c1e64f6efffa49d6376f52f82e6b9e057d31ef5eadb05d5d"
+    },
+    {
+      "file": "A/baseline/code/t01/requirements-windows.lock.txt",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/t01/requirements-windows.lock.txt",
+      "source_sha256": "2f4e65cb4adf7ad8780c3a71bf6c7730752dc815e790e399f51301a8f93e5d49",
+      "packaged_sha256": "ccbd8229d222a361c760f829c0e3e62beb09d9afe392e7ce5bfd1f46a96aa368"
+    },
+    {
+      "file": "A/baseline/code/t01/traveling_wave.py",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/t01/traveling_wave.py",
+      "source_sha256": "800599347e3aecc271c7ff20c594340d6b53ba4c239725c803445eb8aa64886f",
+      "packaged_sha256": "800599347e3aecc271c7ff20c594340d6b53ba4c239725c803445eb8aa64886f"
+    },
+    {
+      "file": "A/baseline/code/t02/compare_resolutions.py",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/t02/compare_resolutions.py",
+      "source_sha256": "134295b1ded73fcc7474e2d90b103b0ce4f6caa186dfb28f2395bcc45b29e13c",
+      "packaged_sha256": "134295b1ded73fcc7474e2d90b103b0ce4f6caa186dfb28f2395bcc45b29e13c"
+    },
+    {
+      "file": "A/baseline/code/t02/free_boundary_spectral.py",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/t02/free_boundary_spectral.py",
+      "source_sha256": "b03b606610b953e63bec4d682647f2c58336e167c11592d72a81da55ab860e87",
+      "packaged_sha256": "b03b606610b953e63bec4d682647f2c58336e167c11592d72a81da55ab860e87"
+    },
+    {
+      "file": "A/baseline/code/t02/planar_front.py",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/t02/planar_front.py",
+      "source_sha256": "80c103ee9ba935242fb9acb58eafa1c3ef67e70483a62917e23632cfb2d76eaa",
+      "packaged_sha256": "80c103ee9ba935242fb9acb58eafa1c3ef67e70483a62917e23632cfb2d76eaa"
+    },
+    {
+      "file": "A/baseline/code/t02/validate_spectral.py",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/t02/validate_spectral.py",
+      "source_sha256": "699f383860fde419a186c6a4fb5fc7179dab80c2858484bf7cce2f837bf4df12",
+      "packaged_sha256": "699f383860fde419a186c6a4fb5fc7179dab80c2858484bf7cce2f837bf4df12"
+    },
+    {
+      "file": "A/baseline/code/t03/onset_probe.cpp",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/t03/onset_probe.cpp",
+      "source_sha256": "ea66d6f5620dedacdfdfd5d78b4da242cf7d420770853acd0f43c9d98725ca3f",
+      "packaged_sha256": "ea66d6f5620dedacdfdfd5d78b4da242cf7d420770853acd0f43c9d98725ca3f"
+    },
+    {
+      "file": "A/baseline/code/t03/postprocess.py",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/t03/postprocess.py",
+      "source_sha256": "a6bda15452e1b4a2c531f1e96d36d4e64f88431ee5a5eedd01389dc7ea290261",
+      "packaged_sha256": "a6bda15452e1b4a2c531f1e96d36d4e64f88431ee5a5eedd01389dc7ea290261"
+    },
+    {
+      "file": "A/baseline/code/t03/run_onset_probe.py",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/t03/run_onset_probe.py",
+      "source_sha256": "b4ba9998dcd3ff23e2f816581bee5e708c308db02561bfbd17cd883228b6c688",
+      "packaged_sha256": "b4ba9998dcd3ff23e2f816581bee5e708c308db02561bfbd17cd883228b6c688"
+    },
+    {
+      "file": "A/baseline/code/t04/run_t04.py",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/t04/run_t04.py",
+      "source_sha256": "7fc117d51882156c845866b4cc33ad0e30646710c0b2d53c7349b775ff3720f7",
+      "packaged_sha256": "7fc117d51882156c845866b4cc33ad0e30646710c0b2d53c7349b775ff3720f7"
+    },
+    {
+      "file": "A/baseline/code/t04/validate_transport_reaction.py",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/t04/validate_transport_reaction.py",
+      "source_sha256": "81102c76d89ab777a7d869d18beadc80a7310c0ddfe2f7adc9dc799547d2add0",
+      "packaged_sha256": "81102c76d89ab777a7d869d18beadc80a7310c0ddfe2f7adc9dc799547d2add0"
+    },
+    {
+      "file": "A/requirements.lock.txt",
+      "source": "综合绩效评价/专家测试材料冻结/A组_T01-T04_v1.0.0_20261109/code/requirements.lock.txt",
+      "source_sha256": "2f4e65cb4adf7ad8780c3a71bf6c7730752dc815e790e399f51301a8f93e5d49",
+      "packaged_sha256": "ccbd8229d222a361c760f829c0e3e62beb09d9afe392e7ce5bfd1f46a96aa368"
+    },
+    {
+      "file": "A/supplement/requirements.txt",
+      "source": "code/review_20261110/portable/requirements.txt",
+      "source_sha256": "2f4e65cb4adf7ad8780c3a71bf6c7730752dc815e790e399f51301a8f93e5d49",
+      "packaged_sha256": "ccbd8229d222a361c760f829c0e3e62beb09d9afe392e7ce5bfd1f46a96aa368"
+    },
+    {
+      "file": "A/supplement/run_t01_supplements.py",
+      "source": "code/review_20261110/portable/run_t01_supplements.py",
+      "source_sha256": "a749e023c584809e90ed83363797a05dc8acb270a139d143143b6c06896ecdea",
+      "packaged_sha256": "d0ea5126d7eb7f5da03e9a2068c35bfe97a8844cb8e2858e5299578e0f24f5f3"
+    },
+    {
+      "file": "A/supplement/sources/planar_front.py",
+      "source": "code/review_20261110/portable/sources/planar_front.py",
+      "source_sha256": "80c103ee9ba935242fb9acb58eafa1c3ef67e70483a62917e23632cfb2d76eaa",
+      "packaged_sha256": "80c103ee9ba935242fb9acb58eafa1c3ef67e70483a62917e23632cfb2d76eaa"
+    },
+    {
+      "file": "A/supplement/sources/t01/CMakeLists.txt",
+      "source": "code/review_20261110/portable/sources/t01/CMakeLists.txt",
+      "source_sha256": "c736762d60046f9e955139e84ca7d94fdb7a9ececa0bf2140bf1e9bbb482ff45",
+      "packaged_sha256": "c736762d60046f9e955139e84ca7d94fdb7a9ececa0bf2140bf1e9bbb482ff45"
+    },
+    {
+      "file": "A/supplement/sources/t01/include/BirkoffInterpolation.h",
+      "source": "code/review_20261110/portable/sources/t01/include/BirkoffInterpolation.h",
+      "source_sha256": "f95f8cc2a2cf9542a22a858f3b09daf7977b1dba2d361527dbfd80c04ded3175",
+      "packaged_sha256": "d770ef3a787385501eca8a3e2cc7654f1c17bd298c92df612e74017aa8ac7e8b"
+    },
+    {
+      "file": "A/supplement/sources/t01/include/CartesianGridAndControlPoints.h",
+      "source": "code/review_20261110/portable/sources/t01/include/CartesianGridAndControlPoints.h",
+      "source_sha256": "555e5eeafce36bac5d2ab032fbb863ac1242061385c6d02912fa1940d998bc9d",
+      "packaged_sha256": "d709b1f996d56250b508523afb0b1e5e6cd74efaae5fe30932c91222a52bd655"
+    },
+    {
+      "file": "A/supplement/sources/t01/include/CleanFiles.h",
+      "source": "code/review_20261110/portable/sources/t01/include/CleanFiles.h",
+      "source_sha256": "18521442ca4c486cf57ee38464609d944874066a8a030cff7815967326b15a74",
+      "packaged_sha256": "06383c0109bc1e9b7627b16bfc13ff730ac7679358e8edb6939c012e208d87b6"
+    },
+    {
+      "file": "A/supplement/sources/t01/include/Const.h",
+      "source": "code/review_20261110/portable/sources/t01/include/Const.h",
+      "source_sha256": "26f2d6f79dedd73e62afe26896178f12d8fa80ef6f6f865875247819b7b555be",
+      "packaged_sha256": "a9326ed2188a7d17ef9fbe9763420b5aa3aef888b863843d9f0caf27ff72b5a9"
+    },
+    {
+      "file": "A/supplement/sources/t01/include/CubicSpline.h",
+      "source": "code/review_20261110/portable/sources/t01/include/CubicSpline.h",
+      "source_sha256": "917b365514d6b082f502faa6a0a6ba428601872dfd57171e6dbc65dafd093a04",
+      "packaged_sha256": "c0032f6e314c3196c4251bdf4c33f9a1786938b83d35c8af5663325b94c6ffab"
+    },
+    {
+      "file": "A/supplement/sources/t01/include/Domains.h",
+      "source": "code/review_20261110/portable/sources/t01/include/Domains.h",
+      "source_sha256": "9ea68d64e00a5ade4eb0a8d53795db535002db407fbb603a9c8efdcdc1eb4fc2",
+      "packaged_sha256": "65aacfe5a056af9a3f8244efabe387d39fbf2a3c221ea5e48a55182e1ce8c0f0"
+    },
+    {
+      "file": "A/supplement/sources/t01/include/FastAlgorithm.h",
+      "source": "code/review_20261110/portable/sources/t01/include/FastAlgorithm.h",
+      "source_sha256": "589e0471d6eb2f6842398722dc430521b6fdfb25ada4f97956a56168d0690f15",
+      "packaged_sha256": "307b9975813dfd72f5d8c15cddbbb9476646f25ea54531869768c65a261427ef"
+    },
+    {
+      "file": "A/supplement/sources/t01/include/FreeBoundaryModel.h",
+      "source": "code/review_20261110/portable/sources/t01/include/FreeBoundaryModel.h",
+      "source_sha256": "f1657d7cb2b3a28eee75ece9c70765342865c23e29cbb5d6172690d33b82c6ec",
+      "packaged_sha256": "c7d07ad24bca11db59bf4e1ee645863c93b26bdfc091041dd7881f08f49d3554"
+    },
+    {
+      "file": "A/supplement/sources/t01/include/Householder.h",
+      "source": "code/review_20261110/portable/sources/t01/include/Householder.h",
+      "source_sha256": "b24fefe05cbdf9b9aa79e00ed7439915082e13fcbbe9451019f234ec91fe8023",
+      "packaged_sha256": "a74993729703e6ca0f493c5c84ca9a467ea56801912b872fce86a8fe7418db42"
+    },
+    {
+      "file": "A/supplement/sources/t01/include/LinearAlgebra.h",
+      "source": "code/review_20261110/portable/sources/t01/include/LinearAlgebra.h",
+      "source_sha256": "96342875fb5f7ed63de76d497f1428bb0eb73ba0fb9631d360bc52530675495c",
+      "packaged_sha256": "fbb09256e7f600ad51195e4e63341d5c142b4de54ab6a4e986d5e6052e46597e"
+    },
+    {
+      "file": "A/supplement/sources/t01/include/LU.h",
+      "source": "code/review_20261110/portable/sources/t01/include/LU.h",
+      "source_sha256": "36ba18be7ca798a829136aa15c1de9112db5d849b514fcc8101a6bc29f877fc9",
+      "packaged_sha256": "9f1280b67af1a891a7a76ff674c1557f7917ec1ca9cfc69f40cf56cd51dd2ed7"
+    },
+    {
+      "file": "A/supplement/sources/t01/include/MHelmholtzSolver.h",
+      "source": "code/review_20261110/portable/sources/t01/include/MHelmholtzSolver.h",
+      "source_sha256": "8d3a83fa834a2882d3335d1ad00ad1caaab674e338bb9b4b98cc705d73f6ac95",
+      "packaged_sha256": "c9cc5ae0ffaa59387800074229294f2a33c476aa520f5289e5be83dc9da5b540"
+    },
+    {
+      "file": "A/supplement/sources/t01/include/Norm.h",
+      "source": "code/review_20261110/portable/sources/t01/include/Norm.h",
+      "source_sha256": "fd70f2eb3aca2613ffdd472e9052f4855ef8c469256139be3ed1f5fb0ce69a55",
+      "packaged_sha256": "8d3f18f0b97d1164a06544485839b88c94e299b063c0fe5a15b5f231ed040a70"
+    },
+    {
+      "file": "A/supplement/sources/t01/include/NormalDerivative.h",
+      "source": "code/review_20261110/portable/sources/t01/include/NormalDerivative.h",
+      "source_sha256": "c8af0f7e6084a26658b170975b35fc3446c6da32adb27538aa76aae06c1074dc",
+      "packaged_sha256": "5515b4650e9ac12374b98027b6d3d34eb412ea7b3c22e66bca582f519515afa6"
+    },
+    {
+      "file": "A/supplement/sources/t01/include/PoissonSolver.h",
+      "source": "code/review_20261110/portable/sources/t01/include/PoissonSolver.h",
+      "source_sha256": "e04c6a21451b02d28a6bdfda091e77a2c3830472f7e752c6c8f99d0bcb9d0b52",
+      "packaged_sha256": "b5429df0bf52806f63c74d830f27b12564a6bb2c5cb1fc9c85e56f5f43072b0b"
+    },
+    {
+      "file": "A/supplement/sources/t01/include/Product.h",
+      "source": "code/review_20261110/portable/sources/t01/include/Product.h",
+      "source_sha256": "059e95ca5a8306d47d02a33e94f005e63b675f0121ae71633801335a5d6e2ecb",
+      "packaged_sha256": "66601e5e7ec4d1d560312744532af6712611e4c084b1de501fb85eb445ae6e3b"
+    },
+    {
+      "file": "A/supplement/sources/t01/include/QR.h",
+      "source": "code/review_20261110/portable/sources/t01/include/QR.h",
+      "source_sha256": "fb5b52630a824c56df0db14e60429468b27ab6100b0edefb0710ad99fba60e20",
+      "packaged_sha256": "c0897097f12b96a977b12808b4f1eb08943f0fd25473a93d3ed518696f2ed45c"
+    },
+    {
+      "file": "A/supplement/sources/t01/include/TangentialDerivatives.h",
+      "source": "code/review_20261110/portable/sources/t01/include/TangentialDerivatives.h",
+      "source_sha256": "d99ebdcad425df5010e5a0321bebc15209ee2b56bbe682692c4709e8c169fc87",
+      "packaged_sha256": "965bd9f50564191e1863bc5fc24045794b8b79369db6d628fd5565e4d6910193"
+    },
+    {
+      "file": "A/supplement/sources/t01/include/ThomasAlgorithm.h",
+      "source": "code/review_20261110/portable/sources/t01/include/ThomasAlgorithm.h",
+      "source_sha256": "07d9ac6c4eb2761617e037322b56adcaed518c224264b9a0f6b54e23d2528982",
+      "packaged_sha256": "56b341fe2a3a12f22d4a567754630932520476ef3a0701c657c4b2da285589ba"
+    },
+    {
+      "file": "A/supplement/sources/t01/src/BirkoffInterpolation.cpp",
+      "source": "code/review_20261110/portable/sources/t01/src/BirkoffInterpolation.cpp",
+      "source_sha256": "995a7ad51cf4ca85a6f178cfa2b6df6f144314966bb91a2dd7895a8cdef820ee",
+      "packaged_sha256": "676a6d2a55e4e5971326d66f32fd9e9e6f78568827663a075445a9544a4f2f2f"
+    },
+    {
+      "file": "A/supplement/sources/t01/src/CartesianGridAndControlPoints.cpp",
+      "source": "code/review_20261110/portable/sources/t01/src/CartesianGridAndControlPoints.cpp",
+      "source_sha256": "81e47eb3143e624b9d8df884cc573b24d5a43123730f2f0db7b932c32f0e5caa",
+      "packaged_sha256": "067c3572c67f45a23448a0a600bc2633d33600b22b6752f36e591dd69353e9d5"
+    },
+    {
+      "file": "A/supplement/sources/t01/src/CleanFiles.cpp",
+      "source": "code/review_20261110/portable/sources/t01/src/CleanFiles.cpp",
+      "source_sha256": "1773ca8dfc67aac612fc22815b878582df68efdfe192faed98e39cb814204ab1",
+      "packaged_sha256": "1773ca8dfc67aac612fc22815b878582df68efdfe192faed98e39cb814204ab1"
+    },
+    {
+      "file": "A/supplement/sources/t01/src/FastAlgorithm.cpp",
+      "source": "code/review_20261110/portable/sources/t01/src/FastAlgorithm.cpp",
+      "source_sha256": "962a5402a31cdf549c5aa5375e27d15b2e7d72ab90129c7fd2b4ebab608f7a76",
+      "packaged_sha256": "a05d0959c30c1758a25091caeac0d38e8471709fc7b206d69abcb50683440872"
+    },
+    {
+      "file": "A/supplement/sources/t01/src/FreeBoundaryModel.cpp",
+      "source": "code/review_20261110/portable/sources/t01/src/FreeBoundaryModel.cpp",
+      "source_sha256": "8109777c368b503446da322106e5012dfff053aa73f88f762dbe1bfb678a221e",
+      "packaged_sha256": "8109777c368b503446da322106e5012dfff053aa73f88f762dbe1bfb678a221e"
+    },
+    {
+      "file": "A/supplement/sources/t01/src/LinearAlgebra.cpp",
+      "source": "code/review_20261110/portable/sources/t01/src/LinearAlgebra.cpp",
+      "source_sha256": "a9884817b9127244546cacd755e42af8c643ea88eea3d883f2cc05f36f4c55bb",
+      "packaged_sha256": "a9884817b9127244546cacd755e42af8c643ea88eea3d883f2cc05f36f4c55bb"
+    },
+    {
+      "file": "A/supplement/sources/t01/src/MHelmholtzSolver.cpp",
+      "source": "code/review_20261110/portable/sources/t01/src/MHelmholtzSolver.cpp",
+      "source_sha256": "6c0b9ecdee5ee485fcc9f6e239022ac199b0306674ce2397198e76bbfeef28aa",
+      "packaged_sha256": "304f365f1c11eea7ba2723514a2cf71ce2b466185477774c2e782c26f2ae0e69"
+    },
+    {
+      "file": "A/supplement/sources/t01/src/NormalDerivative.cpp",
+      "source": "code/review_20261110/portable/sources/t01/src/NormalDerivative.cpp",
+      "source_sha256": "de527568a541018ce828c72554f4d458ac5fad62d5219bc62ed102d92bfd1d47",
+      "packaged_sha256": "04aff01acc56817091809cfec1c751b3a1be2e555eaaaa87230b58e1da76a1b0"
+    },
+    {
+      "file": "A/supplement/sources/t01/src/PoissonSolver.cpp",
+      "source": "code/review_20261110/portable/sources/t01/src/PoissonSolver.cpp",
+      "source_sha256": "4838fb940080f2cbd968859d10f73bc53e6461b87bbc83289cc56a8b13531d04",
+      "packaged_sha256": "df6f16764629eed7415272a43e95bdd3c082a3f2bb8099204145cd558a1b8419"
+    },
+    {
+      "file": "A/supplement/sources/t01/src/TangentialDerivatives.cpp",
+      "source": "code/review_20261110/portable/sources/t01/src/TangentialDerivatives.cpp",
+      "source_sha256": "0502a178b3bcafbc912355d8da36da85c92f58991e4d67b51ee6f8d3412a899e",
+      "packaged_sha256": "252438e517e8a3703aa6a13bb1c0f4af6fcd9b6ea84454031044ef3458d10326"
+    },
+    {
+      "file": "A/supplement/sources/t01/src/test.cpp",
+      "source": "code/review_20261110/portable/sources/t01/src/test.cpp",
+      "source_sha256": "b52e822004cb461ba10d5a5635683e98dc74999f37a28374fd5187fa430603ed",
+      "packaged_sha256": "b52e822004cb461ba10d5a5635683e98dc74999f37a28374fd5187fa430603ed"
+    },
+    {
+      "file": "A/supplement/t01/postprocess.py",
+      "source": "code/review_20261110/portable/t01/postprocess.py",
+      "source_sha256": "75d832af0ee3db36c1e64f6efffa49d6376f52f82e6b9e057d31ef5eadb05d5d",
+      "packaged_sha256": "75d832af0ee3db36c1e64f6efffa49d6376f52f82e6b9e057d31ef5eadb05d5d"
+    },
+    {
+      "file": "A/supplement/t01_supplements_linux.py",
+      "source": "code/review_20261110/portable/t01_supplements_linux.py",
+      "source_sha256": "684a6f129fef465d98b436b82243039833a19c43522a11a637b1e41ddef739f2",
+      "packaged_sha256": "16cceefbe7b71aeacb35e1a1bc8216a01b0cdcf2c03ee3119929cfa6d9840a9a"
+    },
+    {
+      "file": "A/supplement/t02_parameter_scan.py",
+      "source": "code/review_20261110/portable/t02_parameter_scan.py",
+      "source_sha256": "f8de24d513616ded9284da719a8e8bf0b07c82f3a82faca9f0225fee221e2cca",
+      "packaged_sha256": "5937ab1e28044b1b905a5c1fbceb36f8d9b259d54fcabffa8eb48262bc524abc"
+    },
+    {
+      "file": "A/run.py",
+      "source": "code/github_pack_20261125/templates/A_run.py",
+      "source_sha256": "5259a78e6a06de6310338612635926106ee4bc5bb0f13cd7ea2dce3612eddbf3",
+      "packaged_sha256": "5259a78e6a06de6310338612635926106ee4bc5bb0f13cd7ea2dce3612eddbf3"
+    },
+    {
+      "file": "A/demo.py",
+      "source": "code/github_pack_20261125/templates/A_demo.py",
+      "source_sha256": "6746ee3ce16e2842f331aae2e1e6de47eca823a5fd02f0c14dbcf8e592489df1",
+      "packaged_sha256": "6746ee3ce16e2842f331aae2e1e6de47eca823a5fd02f0c14dbcf8e592489df1"
+    },
+    {
+      "file": "A/README.md",
+      "source": "code/github_pack_20261125/templates/A_README.md",
+      "source_sha256": "88f5337c24a1e71f4a3ce9cd2a2cdc354ac4bb22266142b5ac6a13f5563ee88a",
+      "packaged_sha256": "88f5337c24a1e71f4a3ce9cd2a2cdc354ac4bb22266142b5ac6a13f5563ee88a"
+    },
+    {
+      "file": "B/T05/experiment_config.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T05/experiment_config.m",
+      "source_sha256": "4ad6b05e9a8ad6824e32b26736f4a50719c82f2a31e8be3a42364060cb22c3ee",
+      "packaged_sha256": "4ad6b05e9a8ad6824e32b26736f4a50719c82f2a31e8be3a42364060cb22c3ee"
+    },
+    {
+      "file": "B/T05/NOTICE.md",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T05/NOTICE.md",
+      "source_sha256": "f560ee05384ab298265498472e3380d270883c203cd9e74006a0cbe8d106a855",
+      "packaged_sha256": "f560ee05384ab298265498472e3380d270883c203cd9e74006a0cbe8d106a855"
+    },
+    {
+      "file": "B/T05/README.md",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T05/README.md",
+      "source_sha256": "8aacca95f5d82f8818dd28fbfdb1a1a865e2621b3ec0c3486f5a8253b062e585",
+      "packaged_sha256": "8aacca95f5d82f8818dd28fbfdb1a1a865e2621b3ec0c3486f5a8253b062e585"
+    },
+    {
+      "file": "B/T05/run_experiment.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T05/run_experiment.m",
+      "source_sha256": "64aaf3dabcd4130881ceb74f201b7f442ae11c4779f5b05819e715203b55e6d3",
+      "packaged_sha256": "64aaf3dabcd4130881ceb74f201b7f442ae11c4779f5b05819e715203b55e6d3"
+    },
+    {
+      "file": "B/T05/solver/gpc_growth.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T05/solver/gpc_growth.m",
+      "source_sha256": "94ba64f0b270f47300cf8cde230456e49d4b6b6d6517ba8acc45aff6782b6a9b",
+      "packaged_sha256": "94ba64f0b270f47300cf8cde230456e49d4b6b6d6517ba8acc45aff6782b6a9b"
+    },
+    {
+      "file": "B/T05/solver/initial_density.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T05/solver/initial_density.m",
+      "source_sha256": "0a3408eee38dfc3206b182618a3a59aeb8c75e37598ee18067c62f2663db8876",
+      "packaged_sha256": "0a3408eee38dfc3206b182618a3a59aeb8c75e37598ee18067c62f2663db8876"
+    },
+    {
+      "file": "B/T05/solver/legendre_basis.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T05/solver/legendre_basis.m",
+      "source_sha256": "72bb8c5c9a2e5789bc5b0e9e8a0e40c89a6a17ac0b7e015ac52f8e90e62b16ea",
+      "packaged_sha256": "72bb8c5c9a2e5789bc5b0e9e8a0e40c89a6a17ac0b7e015ac52f8e90e62b16ea"
+    },
+    {
+      "file": "B/T05/solver/lgwt.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T05/solver/lgwt.m",
+      "source_sha256": "0e8a46a8975a70af092ad381f0a4ff580f2750345052cc691b5e2042e551aeb8",
+      "packaged_sha256": "0e8a46a8975a70af092ad381f0a4ff580f2750345052cc691b5e2042e551aeb8"
+    },
+    {
+      "file": "B/T05/solver/nutrient_field.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T05/solver/nutrient_field.m",
+      "source_sha256": "1acabc1e97ea4b9fba869fc39e2f4026addd4e1273c4f5d5be391fa03b6af249",
+      "packaged_sha256": "1acabc1e97ea4b9fba869fc39e2f4026addd4e1273c4f5d5be391fa03b6af249"
+    },
+    {
+      "file": "B/T05/solver/sc_growth.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T05/solver/sc_growth.m",
+      "source_sha256": "cbd86d4b1ff2fcaabfe57b4c521e4379c031dbc74d8d90cc5c41c91f3efdce3d",
+      "packaged_sha256": "cbd86d4b1ff2fcaabfe57b4c521e4379c031dbc74d8d90cc5c41c91f3efdce3d"
+    },
+    {
+      "file": "B/T05/solver/solve_gpc_sg.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T05/solver/solve_gpc_sg.m",
+      "source_sha256": "e1f656a1a50314f17d17e96dba4b3d95e5125f9e389be38de1e842c243e1cb60",
+      "packaged_sha256": "e1f656a1a50314f17d17e96dba4b3d95e5125f9e389be38de1e842c243e1cb60"
+    },
+    {
+      "file": "B/T05/solver/solve_sc.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T05/solver/solve_sc.m",
+      "source_sha256": "a29315d8bb07cf925a0ac6c951bef671d09f91c609b254594e05a27917698f2f",
+      "packaged_sha256": "a29315d8bb07cf925a0ac6c951bef671d09f91c609b254594e05a27917698f2f"
+    },
+    {
+      "file": "B/T06/experiment_config.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T06/experiment_config.m",
+      "source_sha256": "8cacbe3aba25658bc22847c424f3664bc72e720892ddf782eac18ff136edd5ca",
+      "packaged_sha256": "8cacbe3aba25658bc22847c424f3664bc72e720892ddf782eac18ff136edd5ca"
+    },
+    {
+      "file": "B/T06/NOTICE.md",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T06/NOTICE.md",
+      "source_sha256": "5f8c5e587fdcb3ee06a9b570e546431b6678d010aa32fab02ce104996dade936",
+      "packaged_sha256": "5f8c5e587fdcb3ee06a9b570e546431b6678d010aa32fab02ce104996dade936"
+    },
+    {
+      "file": "B/T06/README.md",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T06/README.md",
+      "source_sha256": "d9887da7d856c7b12c37dd7cf007f639013942d35420e8efe363d371d4f66378",
+      "packaged_sha256": "d9887da7d856c7b12c37dd7cf007f639013942d35420e8efe363d371d4f66378"
+    },
+    {
+      "file": "B/T06/run_experiment.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T06/run_experiment.m",
+      "source_sha256": "e068330dc4f2632184a144c4278244017a7d917a2c82d60ff5d9c3307a2e65bf",
+      "packaged_sha256": "e068330dc4f2632184a144c4278244017a7d917a2c82d60ff5d9c3307a2e65bf"
+    },
+    {
+      "file": "B/T06/run_reference.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T06/run_reference.m",
+      "source_sha256": "fda7b75f8f93d866add813476f9e3144c3c2db4f5091876da1f578692653b13a",
+      "packaged_sha256": "fda7b75f8f93d866add813476f9e3144c3c2db4f5091876da1f578692653b13a"
+    },
+    {
+      "file": "B/T06/solver/enrich_basis.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T06/solver/enrich_basis.m",
+      "source_sha256": "116f76a3e07a79e66581e61fd0ad4921b56b3268dc8f26b0deb7d3b90e412b18",
+      "packaged_sha256": "116f76a3e07a79e66581e61fd0ad4921b56b3268dc8f26b0deb7d3b90e412b18"
+    },
+    {
+      "file": "B/T06/solver/evaluate_basis.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T06/solver/evaluate_basis.m",
+      "source_sha256": "68b61554655bda4b58eb628e53c5b2fa054cc241ebbc7f68cb167a0eedb6e179",
+      "packaged_sha256": "68b61554655bda4b58eb628e53c5b2fa054cc241ebbc7f68cb167a0eedb6e179"
+    },
+    {
+      "file": "B/T06/solver/fast_marching.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T06/solver/fast_marching.m",
+      "source_sha256": "b08200d95ce25122a5bcd7c574a6f06903ff8baa48a44a8204fddd8b2795ab77",
+      "packaged_sha256": "b08200d95ce25122a5bcd7c574a6f06903ff8baa48a44a8204fddd8b2795ab77"
+    },
+    {
+      "file": "B/T06/solver/model_parameters.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T06/solver/model_parameters.m",
+      "source_sha256": "b125d9b3f686c863fae9050e691891d343f4eaeb4be48b6a7c32325cdf3c1bd5",
+      "packaged_sha256": "b125d9b3f686c863fae9050e691891d343f4eaeb4be48b6a7c32325cdf3c1bd5"
+    },
+    {
+      "file": "B/T06/solver/projection_matrix.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T06/solver/projection_matrix.m",
+      "source_sha256": "f60ba2ed51077275f148415b59a627e582390c9128b77338f79b3254b4586f87",
+      "packaged_sha256": "f60ba2ed51077275f148415b59a627e582390c9128b77338f79b3254b4586f87"
+    },
+    {
+      "file": "B/T06/solver/sample_parameters.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T06/solver/sample_parameters.m",
+      "source_sha256": "40217f0ffca0ce34d5ea881a41c8a8e53761a367d77754fcc440757d5e73f79a",
+      "packaged_sha256": "40217f0ffca0ce34d5ea881a41c8a8e53761a367d77754fcc440757d5e73f79a"
+    },
+    {
+      "file": "B/T06/solver/select_basis.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T06/solver/select_basis.m",
+      "source_sha256": "1e9b79344f3aed8ac0a22e2176ffb054a8a6415d58aa3d6749e6435c4caef8d4",
+      "packaged_sha256": "1e9b79344f3aed8ac0a22e2176ffb054a8a6415d58aa3d6749e6435c4caef8d4"
+    },
+    {
+      "file": "B/T06/solver/solve_cmpme.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T06/solver/solve_cmpme.m",
+      "source_sha256": "1f562835a3b87e29e6b456e97155f6498890fd354aa050cc7b6203e10e4a73fd",
+      "packaged_sha256": "1f562835a3b87e29e6b456e97155f6498890fd354aa050cc7b6203e10e4a73fd"
+    },
+    {
+      "file": "B/T06/solver/solve_heleshaw.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T06/solver/solve_heleshaw.m",
+      "source_sha256": "ddaa8df5fd59701e5ea108703d1bcbcfa7923b534f3ce0a805607a765b33016d",
+      "packaged_sha256": "ddaa8df5fd59701e5ea108703d1bcbcfa7923b534f3ce0a805607a765b33016d"
+    },
+    {
+      "file": "B/T06/solver/solve_pme.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T06/solver/solve_pme.m",
+      "source_sha256": "ac82fce88dfb2e1009a8328b733a930b13e0a22986e5ed33f21f253055f1da3d",
+      "packaged_sha256": "ac82fce88dfb2e1009a8328b733a930b13e0a22986e5ed33f21f253055f1da3d"
+    },
+    {
+      "file": "B/T06/solver/solve_sample.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T06/solver/solve_sample.m",
+      "source_sha256": "3d2eaaa5af3435961b9b770cc64bb9bdc891b9abe0894da5ee35925a67458a2e",
+      "packaged_sha256": "3d2eaaa5af3435961b9b770cc64bb9bdc891b9abe0894da5ee35925a67458a2e"
+    },
+    {
+      "file": "B/T07/reference/G_Fun.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T07/G_Fun.m",
+      "source_sha256": "2998d03e5d90062b3d431488ae1d0e230e0f36e25170ba540c44797e0e981cd0",
+      "packaged_sha256": "2998d03e5d90062b3d431488ae1d0e230e0f36e25170ba540c44797e0e981cd0"
+    },
+    {
+      "file": "B/T07/reference/G_Function.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T07/G_Function.m",
+      "source_sha256": "ac1d39af042b6d0f3fe6b452560a359b5da816109fe0b04b003023de71faf222",
+      "packaged_sha256": "ac1d39af042b6d0f3fe6b452560a359b5da816109fe0b04b003023de71faf222"
+    },
+    {
+      "file": "B/T07/reference/MCMC_Test1b.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T07/MCMC_Test1b.m",
+      "source_sha256": "0908490c4aa7e6cafa19a86367b13de473597e416b57ced5a31df458971edd78",
+      "packaged_sha256": "0908490c4aa7e6cafa19a86367b13de473597e416b57ced5a31df458971edd78"
+    },
+    {
+      "file": "B/T07/reference/MCMC_Test3.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T07/MCMC_Test3.m",
+      "source_sha256": "0bdf2d047d2be29bee54ee071c9a077f664f6bfe3f78b27bf1244da090057b1f",
+      "packaged_sha256": "0bdf2d047d2be29bee54ee071c9a077f664f6bfe3f78b27bf1244da090057b1f"
+    },
+    {
+      "file": "B/T07/reference/MetroHast5.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T07/MetroHast5.m",
+      "source_sha256": "e35268e5ee6206ab2dcfdf81c8721b0a392fadf14ad32d2b387158d63103c8d2",
+      "packaged_sha256": "e35268e5ee6206ab2dcfdf81c8721b0a392fadf14ad32d2b387158d63103c8d2"
+    },
+    {
+      "file": "B/T07/reference/MetroHast_RandomField.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T07/MetroHast_RandomField.m",
+      "source_sha256": "ac7f6b3039e67638b0ba88c090fccb229ea600c960a3f3ce2ee20fcd457fff70",
+      "packaged_sha256": "ac7f6b3039e67638b0ba88c090fccb229ea600c960a3f3ce2ee20fcd457fff70"
+    },
+    {
+      "file": "B/T07/reference/Random_Field.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T07/Random_Field.m",
+      "source_sha256": "3e185621ef56c2d2e4a3dfa7cf738406633cf704b832a5910560288fb9e5cac8",
+      "packaged_sha256": "3e185621ef56c2d2e4a3dfa7cf738406633cf704b832a5910560288fb9e5cac8"
+    },
+    {
+      "file": "B/T07/reference/solver_2D.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T07/solver_2D.m",
+      "source_sha256": "ebe3096c2cec56a82adfe0d77eea4362df85f4872f118e37ffff8133cec323a6",
+      "packaged_sha256": "344d7a7351da1d201c7db5d35b3ff9d8857b90e7de7202a51adcfa0e469ed71b"
+    },
+    {
+      "file": "B/T07/reference/Test.m",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T07/Test.m",
+      "source_sha256": "deaffab968323bf2c3858f0e84c97eb3c833fb5e564fcc798436741c506907db",
+      "packaged_sha256": "eaf1a9a52ac68510120a10077359cb4c7b0de22615d74d39bec3226b6c61bd39"
+    },
+    {
+      "file": "B/T07/README.md",
+      "source": "code/github_pack_20261125/templates/B_T07_README.md",
+      "source_sha256": "b0b9bb42edbc8fc5c51171dcb780a843ceb47d52e2a84a440e5afa5ab6dfeebc",
+      "packaged_sha256": "b0b9bb42edbc8fc5c51171dcb780a843ceb47d52e2a84a440e5afa5ab6dfeebc"
+    },
+    {
+      "file": "B/T08/data/2D_RS_Real_1_t.npz",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T08/2D_RS_Real_1_t.npz",
+      "source_sha256": "1ca29ef35bf6ade286de4197a8bce983318c53a9424debf556ac7bb68b011ad4",
+      "packaged_sha256": "1ca29ef35bf6ade286de4197a8bce983318c53a9424debf556ac7bb68b011ad4"
+    },
+    {
+      "file": "B/T08/data/2D_RS_Real_1_t.xlsx",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T08/2D_RS_Real_1_t.xlsx",
+      "source_sha256": "8729ca1ca186a04c44ed76fd6876db555a05a148aa5966f162f043a85817e78b",
+      "packaged_sha256": "8729ca1ca186a04c44ed76fd6876db555a05a148aa5966f162f043a85817e78b"
+    },
+    {
+      "file": "B/T08/excel2npz.py",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T08/excel2npz.py",
+      "source_sha256": "56125e7549c59b5d7df561069d8fd44106ff152fa239b584a522ae643b977447",
+      "packaged_sha256": "52c25a2dbc8c725539d01108b3abe3bb50a214eb1c65e945a88253e0c901a9e2"
+    },
+    {
+      "file": "B/T08/reference/_v_predict.ipynb",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T08/_v_predict.ipynb",
+      "source_sha256": "c5ea00e0def8fbadb2eabfce9f6bed286d805cde9c0b85b9ecff193f71ef9f4a",
+      "packaged_sha256": "dfdc7e44e11715228c4c1b04b05bb27a516b25dcbc6bc4640c6f244f64479ab1"
+    },
+    {
+      "file": "B/T08/reference/deeponet_inverse_tumor.ipynb",
+      "source": "综合绩效评价/UQ Project (updated)/UQ Project Codes_1124(updated)/T08/deeponet_inverse_tumor.ipynb",
+      "source_sha256": "4c8f8f00282113d741110bdafa0a5a0326c8d55df82a99d84752082239757be3",
+      "packaged_sha256": "ae7849c043dbdc07b395cf3f37e8d859575d8e80c81081bba681008714f2eb6a"
+    },
+    {
+      "file": "B/T08/README.md",
+      "source": "code/github_pack_20261125/templates/B_T08_README.md",
+      "source_sha256": "ea071ce1644ebb4b31e4ff34c8eea2f90ecbc067af2b6f7d59cf10f287c14c8a",
+      "packaged_sha256": "ea071ce1644ebb4b31e4ff34c8eea2f90ecbc067af2b6f7d59cf10f287c14c8a"
+    },
+    {
+      "file": "README.md",
+      "source": "code/github_pack_20261125/templates/README.md",
+      "source_sha256": "a83dbec44389fe78475f93dba87fda44dc40818202e3410767978221bc1e4887",
+      "packaged_sha256": "a83dbec44389fe78475f93dba87fda44dc40818202e3410767978221bc1e4887"
+    },
+    {
+      "file": "scripts/verify_materials.py",
+      "source": "code/github_pack_20261125/templates/verify_materials.py",
+      "source_sha256": "9318eb449fc7fa347c0ad00296fa7da1f9287598a0fd5b8f99048c05fdf55227",
+      "packaged_sha256": "9318eb449fc7fa347c0ad00296fa7da1f9287598a0fd5b8f99048c05fdf55227"
+    }
+  ],
+  "packaging_changes": [
+    {
+      "file": "A/supplement/run_t01_supplements.py",
+      "change": "Use the caller scientific Python environment rather than an external project dependency folder."
+    },
+    {
+      "file": "A/supplement/run_t01_supplements.py",
+      "change": "Route Windows through WSL and Linux directly without changing the five numerical configurations."
+    },
+    {
+      "file": "A/supplement/t02_parameter_scan.py",
+      "change": "Use installed scientific Python dependencies, with no ancestor-project lookup."
+    },
+    {
+      "file": "A/baseline/code/frozen_cpp_runner.py",
+      "change": "Use a separate source-hashed build cache for the merged repository."
+    },
+    {
+      "file": "A/baseline/code/frozen_cpp_runner.py",
+      "change": "Record source origin rather than identifying the new package as the old archive."
+    },
+    {
+      "file": "B/T08/excel2npz.py",
+      "change": "Replace the personal Windows input path by repository-relative defaults and explicit CLI arguments."
+    },
+    {
+      "file": "B/T08/excel2npz.py",
+      "change": "Write converted input to a separate output directory by default."
+    },
+    {
+      "file": "B/T08/reference/_v_predict.ipynb",
+      "change": "Clear stale execution output; use supplied local input. DeepONet also fixes import/export ordering and scalar time formatting; no time-origin, loss or training changes."
+    },
+    {
+      "file": "B/T08/reference/deeponet_inverse_tumor.ipynb",
+      "change": "Clear stale execution output; use supplied local input. DeepONet also fixes import/export ordering and scalar time formatting; no time-origin, loss or training changes."
+    },
+    {
+      "file": ".gitattributes",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": ".gitignore",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "KNOWN_ISSUES.md",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "TESTS.json",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "THIRD_PARTY_NOTICES.md",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/requirements.lock.txt",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "docs/RESULT_INDEX.md",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/supplement/README.md",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/supplement/requirements.txt",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/supplement/run_t01_supplements.py",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/supplement/t01_supplements_linux.py",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/supplement/t02_parameter_scan.py",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/cases.json",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_cpp_runner.py",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/requirements.lock.txt",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/t01/requirements-windows.lock.txt",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/BirkoffInterpolation.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/CartesianGridAndControlPoints.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/CleanFiles.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/Const.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/CubicSpline.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/Domains.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/FastAlgorithm.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/FreeBoundaryModel.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/Householder.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/LinearAlgebra.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/LU.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/MHelmholtzSolver.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/Norm.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/NormalDerivative.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/PoissonSolver.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/Product.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/QR.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/TangentialDerivatives.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/include/ThomasAlgorithm.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/src/BirkoffInterpolation.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/src/CartesianGridAndControlPoints.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/src/FastAlgorithm.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/src/MHelmholtzSolver.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/src/NormalDerivative.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/src/PoissonSolver.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t01/src/TangentialDerivatives.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/BirkoffInterpolation.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/BoundaryInclusionCheck.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/CartesianGridAndControlPoints.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/CleanFiles.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/Const.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/Domains.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/ExtractBoundaryData.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/ExtractBoundaryPoints.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/FastAlgorithm.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/FreeBoundaryModel.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/GMRES.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/Householder.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/InterfaceBvpSolver.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/LinearAlgebra.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/LU.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/Norm.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/NormalDerivative.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/PrimalDualAlgorithm.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/Product.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/QR.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/TangentialDerivatives.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/include/ThomasAlgorithm.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/src/BirkoffInterpolation.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/src/BoundaryInclusionCheck.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/src/CartesianGridAndControlPoints.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/src/ExtractBoundaryData.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/src/ExtractBoundaryPoints.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/src/FastAlgorithm.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/src/GMRES.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/src/InterfaceBvpSolver.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/src/NormalDerivative.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/src/PrimalDualAlgorithm.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_core/src/TangentialDerivatives.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/BirkoffInterpolation.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/BoundaryInclusionCheck.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/CartesianGridAndControlPoints.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/CartesianGridAndControlPoints0.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/CleanFiles.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/Config.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/Const.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/Domains.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/ExtractBoundaryData.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/ExtractBoundaryPoints.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/FastAlgorithm.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/FreeBoundaryModel.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/GMRES.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/Householder.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/InterfaceBvpSolver.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/LinearAlgebra.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/LU.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/MHelmholtzSolver.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/Norm.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/NormalDerivative.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/PoissonSolver.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/PrimalDualAlgorithm.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/Product.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/QR.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/TangentialDerivatives.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/include/ThomasAlgorithm.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/BirkoffInterpolation.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/BoundaryInclusionCheck.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/CartesianGridAndControlPoints.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/CartesianGridAndControlPoints0.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/Config.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/ExtractBoundaryData.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/ExtractBoundaryPoints.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/FastAlgorithm.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/GMRES.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/InterfaceBvpSolver.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/MHelmholtzSolver.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/NormalDerivative.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/PoissonSolver.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/PrimalDualAlgorithm.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/frozen_sources/t03_emergence/src/TangentialDerivatives.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/t01/results/.gitkeep",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/t02/results/.gitkeep",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/t03/results/.gitkeep",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/baseline/code/t04/results/.gitkeep",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/supplement/sources/t01/include/BirkoffInterpolation.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/supplement/sources/t01/include/CartesianGridAndControlPoints.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/supplement/sources/t01/include/CleanFiles.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/supplement/sources/t01/include/Const.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/supplement/sources/t01/include/CubicSpline.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/supplement/sources/t01/include/Domains.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/supplement/sources/t01/include/FastAlgorithm.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/supplement/sources/t01/include/FreeBoundaryModel.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/supplement/sources/t01/include/Householder.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/supplement/sources/t01/include/LinearAlgebra.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/supplement/sources/t01/include/LU.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/supplement/sources/t01/include/MHelmholtzSolver.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/supplement/sources/t01/include/Norm.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/supplement/sources/t01/include/NormalDerivative.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/supplement/sources/t01/include/PoissonSolver.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/supplement/sources/t01/include/Product.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/supplement/sources/t01/include/QR.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/supplement/sources/t01/include/TangentialDerivatives.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/supplement/sources/t01/include/ThomasAlgorithm.h",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/supplement/sources/t01/src/BirkoffInterpolation.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/supplement/sources/t01/src/CartesianGridAndControlPoints.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/supplement/sources/t01/src/FastAlgorithm.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/supplement/sources/t01/src/MHelmholtzSolver.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/supplement/sources/t01/src/NormalDerivative.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/supplement/sources/t01/src/PoissonSolver.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "A/supplement/sources/t01/src/TangentialDerivatives.cpp",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "B/T08/excel2npz.py",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "B/T08/requirements.txt",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "B/T07/reference/solver_2D.m",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "B/T07/reference/Test.m",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "B/T08/reference/deeponet_inverse_tumor.ipynb",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    },
+    {
+      "file": "B/T08/reference/_v_predict.ipynb",
+      "change": "Normalize text line endings to LF for Git checkout checksum stability."
+    }
+  ],
+  "scientific_scope": "No numerical kernel or inference model rewritten. T07/T08 remain reference implementations with explicit limits."
+}

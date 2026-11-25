@@ -1,0 +1,6 @@
+# Reference training dependencies; not a validated complete-training lock.
+numpy
+pandas
+openpyxl
+torch
+matplotlib

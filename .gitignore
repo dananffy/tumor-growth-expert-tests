@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.asv
+.DS_Store
+__MACOSX/
+.ipynb_checkpoints/
+.venv/
+venv/
+**/runs/
+**/results/*
+!**/results/.gitkeep
+**/outputs/
+A/demo_runs/
+**/working/
+build/
+B/T08/reference/training_history.csv
+B/T08/reference/deeponet_training_history.csv
