@@ -1,0 +1,24 @@
+{
+  "T01_radial_64": {
+    "kind": "cpp",
+    "group": "T01",
+    "source": "frozen_sources/t01",
+    "executable": "t01",
+    "grid": 64,
+    "dt": 0.04,
+    "end": 0.2,
+    "parameters": {
+      "lambda": 0.5,
+      "c_B": 10,
+      "G0": 0.2,
+      "R0": 0.5,
+      "n_ctrl": 32,
+      "box": [
+        -1.5,
+        1.5
+      ],
+      "M": 256
+    },
+    "description": "T01 径向传播 64网格"
+  }
+}

@@ -19,6 +19,12 @@
 
 各项实际采用的配置、结果来源和检查范围见[结果索引](docs/RESULT_INDEX.md)。文件清单见[MANIFEST.json](MANIFEST.json)，当前限制见[KNOWN_ISSUES.md](KNOWN_ISSUES.md)。
 
+## A组现场MATLAB入口（新增）
+
+在MATLAB中从仓库根目录进入 `A/matlab_demo` 并运行 `T01_demo`，见[操作说明](A/matlab_demo/README.md)。它使用现有WSL/C++求解器，MATLAB独立计算ODE参考并生成边界、半径、误差和压力场图。首次运行需编译，建议会前预热环境。该最小算例不替代完整加密测试。
+
+新读者可先看[一次T01复测的四步操作](docs/QUICK_START_T01.md)：获取完整代码、阅读环境说明、运行MATLAB入口、核对新输出。
+
 ## 最快开始
 
 在仓库根目录执行，第一条只需要Python标准库：

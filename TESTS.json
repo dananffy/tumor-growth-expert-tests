@@ -6,7 +6,12 @@
     "files": [
       "A/run.py",
       "A/demo.py",
-      "A/baseline/code/t01/postprocess.py"
+      "A/baseline/code/t01/postprocess.py",
+      "A/matlab_demo/T01_demo.m",
+      "A/matlab_demo/README.md",
+      "A/matlab_demo/backend/cases.json",
+      "A/matlab_demo/backend/frozen_cpp_runner.py",
+      "docs/QUICK_START_T01.md"
     ]
   },
   {

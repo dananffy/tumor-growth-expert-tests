@@ -1043,7 +1043,7 @@
       "file": "A/README.md",
       "source": "code/github_pack_20261125/templates/A_README.md",
       "source_sha256": "88f5337c24a1e71f4a3ce9cd2a2cdc354ac4bb22266142b5ac6a13f5563ee88a",
-      "packaged_sha256": "88f5337c24a1e71f4a3ce9cd2a2cdc354ac4bb22266142b5ac6a13f5563ee88a"
+      "packaged_sha256": "ac7948d37183039b7fe113379ac474c6d134cb78c57e5fdedaeb3e9eb0b8f6d7"
     },
     {
       "file": "B/T05/experiment_config.m",
@@ -1313,13 +1313,37 @@
       "file": "README.md",
       "source": "code/github_pack_20261125/templates/README.md",
       "source_sha256": "a83dbec44389fe78475f93dba87fda44dc40818202e3410767978221bc1e4887",
-      "packaged_sha256": "a83dbec44389fe78475f93dba87fda44dc40818202e3410767978221bc1e4887"
+      "packaged_sha256": "a24fd5d467a5719996cbfd47ad44d610711e630238932be3cdba766ce0bfb5d4"
     },
     {
       "file": "scripts/verify_materials.py",
       "source": "code/github_pack_20261125/templates/verify_materials.py",
       "source_sha256": "9318eb449fc7fa347c0ad00296fa7da1f9287598a0fd5b8f99048c05fdf55227",
       "packaged_sha256": "9318eb449fc7fa347c0ad00296fa7da1f9287598a0fd5b8f99048c05fdf55227"
+    },
+    {
+      "file": "A/matlab_demo/T01_demo.m",
+      "source": "综合绩效评价/MATLAB现场演示_T01_20261125/T01_demo.m",
+      "source_sha256": "b718e38c0d12d6c3e405d492e0224081b78a8c56981cddae8cef9b5fabe17ed2",
+      "packaged_sha256": "b718e38c0d12d6c3e405d492e0224081b78a8c56981cddae8cef9b5fabe17ed2"
+    },
+    {
+      "file": "A/matlab_demo/README.md",
+      "source": "综合绩效评价/MATLAB现场演示_T01_20261125/使用说明.md",
+      "source_sha256": "f1d9a0f355b1d0758fc9894bd4ae25624705f647ae69c36d0eea9745d85bc9bb",
+      "packaged_sha256": "f1d9a0f355b1d0758fc9894bd4ae25624705f647ae69c36d0eea9745d85bc9bb"
+    },
+    {
+      "file": "A/matlab_demo/backend/cases.json",
+      "source": "综合绩效评价/MATLAB现场演示_T01_20261125/backend/cases.json",
+      "source_sha256": "84600625bbd42caeb310647e24524e2e5676290763ee0f431f06d4320ad3fd10",
+      "packaged_sha256": "84600625bbd42caeb310647e24524e2e5676290763ee0f431f06d4320ad3fd10"
+    },
+    {
+      "file": "A/matlab_demo/backend/frozen_cpp_runner.py",
+      "source": "综合绩效评价/MATLAB现场演示_T01_20261125/backend/frozen_cpp_runner.py",
+      "source_sha256": "5034cca4950730ccfb1411171df510a671993bd4a6f31c3e41b5f888d16abbf4",
+      "packaged_sha256": "5034cca4950730ccfb1411171df510a671993bd4a6f31c3e41b5f888d16abbf4"
     }
   ],
   "packaging_changes": [
@@ -1966,7 +1990,10 @@
     {
       "file": "B/T08/reference/_v_predict.ipynb",
       "change": "Normalize text line endings to LF for Git checkout checksum stability."
-    }
+    },
+    "Added the checked MATLAB T01 front end and its unchanged C++ source copy. MATLAB controls execution, integrates an independent ode45 reference, and plots results. Generated runs and QA files are excluded.",
+    "Added docs/QUICK_START_T01.md and README links describing full download, MATLAB execution and fresh-output checks; scientific solver and MATLAB entry unchanged.",
+    "Normalized changed text files to LF before inventory refresh, matching .gitattributes and GitHub checkout bytes."
   ],
   "scientific_scope": "No numerical kernel or inference model rewritten. T07/T08 remain reference implementations with explicit limits."
 }

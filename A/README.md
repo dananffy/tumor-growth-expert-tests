@@ -21,7 +21,20 @@ python A/run.py --case T04_autophagy_dx0.04
 
 T01/T03首次运行会在Linux用户缓存目录构建C++程序，随后新输出保存回本仓库的运行目录。支持`--build-only`和`--skip-build`。Windows默认使用WSL的`Ubuntu-24.04`，Python后处理仍在已安装科学依赖的Windows环境执行。可选`T03_onset_probe`在Windows由包装器整体交WSL执行，只需Linux标准库及C++工具链。
 
-## T01现场演示
+## T01 MATLAB现场演示（新增）
+
+首次使用可按[四步操作指引](../docs/QUICK_START_T01.md)完成一次新计算与输出查验。
+
+在MATLAB中进入 `A/matlab_demo`，运行 `T01_demo`。控制、独立ODE参考、数据检查和绘图均在MATLAB中完成，二维求解仍沿用C++/WSL。完整操作见[MATLAB演示说明](matlab_demo/README.md)。该入口不需要Windows端Python科学依赖，需保留整个matlab_demo目录。
+
+```matlab
+cd('A/matlab_demo') % 从仓库根目录开始
+T01_demo
+% T01_demo('prepare') % 会前预编译
+% T01_demo('replay')  % 明确标注为已有结果回放
+```
+
+## T01 Python现场演示（原入口保留）
 
 ```text
 python A/demo.py --prepare
